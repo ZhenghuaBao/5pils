@@ -137,3 +137,7 @@ dmypy.json
 # Project files
 sketch*
 5pils/sketch*
+
+# text and image files
+*.txt
+*.png
