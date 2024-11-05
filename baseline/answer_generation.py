@@ -105,7 +105,8 @@ def run_model(image_paths,
                                                 temperature=temperature, 
                                                 max_tokens=max_tokens) 
                 elif model=='llava':
-                    output = llava_prompting(prompt,image_paths[i],pipe,map_manipulated,temperature,max_tokens)
+                    if os.path.exists(image_paths[i]):
+                        output = llava_prompting(prompt,image_paths[i],pipe,map_manipulated,temperature,max_tokens)
                 elif model=='lama':
                     output = llama_prompting(prompt,pipe,tokenizer,temperature, max_tokens)
                 
@@ -122,10 +123,17 @@ def run_model(image_paths,
                                                temperature=temperature, 
                                                max_tokens=max_tokens)      
             elif model=='llava':
+                if os.path.exists(image_paths[i]):
                     output = llava_prompting(prompt,image_paths[i],pipe,map_manipulated,temperature,max_tokens)
+                else:
+                    output = f"Images was not downloaded previously..."
             else:
                 print('Error : wrong model provided')
                 break
+
+        print(image_paths[i])
+
+        print(results_json)
         #Save results
         if type(output)==str:
             data = {}

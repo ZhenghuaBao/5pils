@@ -36,14 +36,14 @@ if __name__=='__main__':
                         help='The waiting time between two answer generation.')
 
     args = parser.parse_args()
-    if args.model=='gpt4':
-        client = AzureOpenAI(
-        api_key=os.getenv(args.openai_api_key),  
-        api_version=args.api_version,
-        azure_endpoint = os.getenv(args.endpoint)
-        )
-    else:
-        client = None
+    # if args.model=='gpt4':
+    #     client = AzureOpenAI(
+    #     api_key=os.getenv(args.openai_api_key),  
+    #     api_version=args.api_version,
+    #     azure_endpoint = os.getenv(args.endpoint)
+    #     )
+    # else:
+    client = None
 
     if 'output' not in os.listdir():
         os.mkdir('output/')
@@ -52,15 +52,19 @@ if __name__=='__main__':
         results_json = load_json(args.results_file)
     except:
         # file does not exist yet
-        results_json = []
+        if not os.path.exists(args.results_file):
+            # Create an empty JSON file with an empty list if it does not exist yet
+            with open(args.results_file, 'w') as file:
+                json.dump([], file)
+        results_json = load_json(args.results_file)
     #Prepare data
     train = load_json('dataset/train.json')
     #Load test images
     test = load_json('dataset/test.json')
     task_test = [t for t in test if t[args.task]!='not enough information']
     image_paths = [t['image path'] for t in task_test]
-    if task=='date':
-        ground_truth = [t['date_numeric'] for t in task_test]
+    if args.task=='date':
+        ground_truth = [t['date numeric label'] for t in task_test]
     else:
         ground_truth = [t[args.task] for t in task_test]
 
@@ -100,7 +104,7 @@ if __name__=='__main__':
     run_model(image_paths, 
               args.task, 
               ground_truth, 
-              results_json,
+              args.results_file,
               map_manipulated, 
               args.modality, 
               args.model, 
