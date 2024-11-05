@@ -1,0 +1,1692 @@
+[
+    {
+        "img_path": "dataset/processed_img/the-image-of-the-child-on-parle-g-biscuit-packet-is-just-an-illustration-doesnt-belong-to-any-real-person.png",
+        "ground_truth": "Illustration for Packaging",
+        "output": " Clicked"
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-are-not-of-a-plane-shot-down-by-the-ethiopian-air-force-4c67f545686e.png",
+        "ground_truth": "First Image: Report of plane crash. Second Image: Showcase 'MiG-29S firing S-8 rockets' by Uzbekistan Air Force",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-dont-show-tplf-tanks-destroyed-by-ethiopian-air-force-in-september-2022-e9c607643b91.png",
+        "ground_truth": "The original authors captured these images for different purposes: demonstration of a drone and documentation of a destroyed military vehicle",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-doesnt-show-a-drone-attack-in-adigrat-tigray-region-3df00e6844e3.png",
+        "ground_truth": "Showcase of a test trial of drones designated to deliver medical supplies, including blood & emergency medical equipment",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-of-state-house-kenya-containing-a-yellow-cross-is-doctored-70be22bd433b.png",
+        "ground_truth": "The original photo was captured presumably to display the standard and the East African Community (EAC) flag on State House.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-of-oromo-artists-in-military-uniform-is-doctored-4e1eacfb3473.png",
+        "ground_truth": "Original image was captured to show Ethiopian soldiers on patrol in a street in Mekelle after the northern Ethiopian city was recaptured",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/satire-this-image-showing-a-uda-branded-wheelbarrow-hoisted-at-state-house-nairobi-is-satirical-7850fcb262ee.png",
+        "ground_truth": "To display official residence of the Kenyan president",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-isnt-an-image-of-tplf-troops-surrendering-to-afar-popular-forces-abbfb14f6c0.png",
+        "ground_truth": "To document the reopening of the Eritrean-Ethiopian border post a peace deal in September 2018",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-these-pictures-of-ethiopian-politicians-have-been-digitally-manipulated-72b7e4fb518a.png",
+        "ground_truth": "First photo: Capturing the image of an Ethiopian priest; Second photo: Not specified",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-unrelated-to-war-in-northern-ethiopia-7bdbc318bfa.png",
+        "ground_truth": "To showcase the US-Ethiopia joint military exercise",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-do-not-show-airstrikes-in-tigray-e970a411f218.png",
+        "ground_truth": "To support an article about the impact of low-cost armed Turkish drones on future warfare",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-arent-images-of-the-ethiopian-military-destroying-an-operation-led-by-a-sudanese-344045447781.png",
+        "ground_truth": "The original motivation behind the images was to document a joint military exercise in Thailand (1st and 3rd images) and to document the Tigray Defense Forces operation in northern Ethiopia (2nd image)",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-does-not-show-ex-kenyan-president-uhuru-kenyatta-attending-queen-elizabeths-fc158694bfc7.png",
+        "ground_truth": "The original image was shared by State House Kenya to document Kenyatta's visit to the UK-Africa Investment Summit in London.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-photos-dont-show-the-ethiopian-national-defense-force-destroying-tplf-trucks-in-27d9d95af7.png",
+        "ground_truth": "First image: To present the drone model 'Bayraktar TB2'. Second image: To report a truck accident in Bako Tibe, West Shoa, Oromia",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-do-not-show-an-ethiopian-air-force-attack-on-tplf-leaders-in-agula-town-tigray-39c63879fd15.png",
+        "ground_truth": "First image: To accompany the report on Ukrainian conflict; Second image: Documentation of Eritrean army tank found abandoned",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-photos-do-not-show-ethiopian-air-force-attacking-tplf-troops-in-mekelle-18888d7b3fe6.png",
+        "ground_truth": "First image- Depict a reported Russian attack on Ukraine troops, Second image- Show the Ethiopian Air Force in action against TPLF in another location, Third image- Show SU-34 aircrafts in flight",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/satire-this-image-does-not-show-metro-shuttle-matatus-in-london-3ee121820a1c.png",
+        "ground_truth": "BBC captured the photo of world leaders arriving in buses for the queen\u2019s funeral.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/an-image-from-the-documentary-film-messi-is-shared-as-real-childhood-picture-of-lionel-messi.png",
+        "ground_truth": "The image shows Juan Ignacio Martinez, who played Messi\u2019s childhood character in the \u2018Messi\u2019 film",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/morphed-image-shared-as-photographer-lying-on-the-ground-to-capture-pm-modis-photo.png",
+        "ground_truth": "Original image was to commemorate PM Modi\u2019s visit to Gandhi Smriti",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-do-not-show-the-ethiopian-defence-force-drones-in-the-tigray-region-airspace-1c3a8113b30.png",
+        "ground_truth": "Each image was captured for different reasons, such as illustrating unmanned combat aerial vehicles or documenting Turkish aircraft features",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-are-not-related-to-the-ongoing-conflict-in-northern-ethiopia-in-september-2022-d14cc7a74a85.png",
+        "ground_truth": "The original images were shared by FBC and the Ethiopian News Agency to report TPLF militants surrendering in 2021.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/the-girl-in-this-photo-who-lost-her-life-due-to-cancer-is-not-south-african-cricketer-david-millers-daughter.png",
+        "ground_truth": "David Miller posted the image on Instagram to pay tribute to a fan who lost her life to cancer",
+        "output": " To capture a moment"
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-shows-bullet-train-maintenance-centre-in-china-not-gujarat.png",
+        "ground_truth": "To showcase the Wuhan bullet train maintenance centre, which is the largest of its kind in central China",
+        "output": " To show train station"
+    },
+    {
+        "img_path": "dataset/processed_img/morphed-image-shared-as-billboard-stating-journalist-anjana-kashyap-as-unofficial-spokesperson-of-bjp.png",
+        "ground_truth": "The original image was used for a billboard ad featuring News Anchor Anjana Om Kashyap.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/old-photo-of-kiran-rao-before-her-divorce-from-aamir-khan-shared-as-the-recent-one.png",
+        "ground_truth": "To capture Kiran Rao in a casual setting without makeup",
+        "output": " To capture a moment"
+    },
+    {
+        "img_path": "dataset/processed_img/the-japanese-bullet-train-in-this-photo-suffered-a-crack-on-its-bonnet-after-hitting-a-man-not-an-animal.png",
+        "ground_truth": "Documenting the damage on a Nozomi Shinkansen bullet train after hitting a man",
+        "output": " To showcase Linet Toto's accomplishment"
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-old-photo-from-a-rally-in-nigeria-shared-as-huge-crowd-at-bharat-jodo-yatra-rally-in-ballari.png",
+        "ground_truth": "Show the crowd that gathered for evangelist Reinhard Bonnke\u2019s rally in Nigeria",
+        "output": " Election"
+    },
+    {
+        "img_path": "dataset/processed_img/partly-false-this-is-not-a-photo-of-youngsters-rigathi-gachagua-and-william-ruto-a8d083ff865d.png",
+        "ground_truth": "To commemorate the 44-year friendship between Rigathi Gachagua and Simon Guandaru alias Hercules",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-of-bobi-wine-holding-a-portrait-of-gen-muhoozi-kainerugaba-is-doctored-61a1c7d8b566.png",
+        "ground_truth": "To capture the moment when Bobi Wine, Andry Sadovy and an unidentified man held a portrait of Nelson Mandela",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-is-not-an-image-of-a-military-drone-shot-down-by-the-ethiopian-air-force-as-it-entered-fb68019e3dcb.png",
+        "ground_truth": "To report the shooting down of a Chinese armed drone in Libya by Turkey using laser weapon technology.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/no-such-massive-buddhist-conversion-event-was-held-in-jaipur-recently-images-show-dhamma-mela-organized-in-maharashtra.png",
+        "ground_truth": "To depict 'Dhamma Mela' organised by the Indian Buddhist Mahasabha on the occasion of 66th Dhamma chakra Pravartan Day",
+        "output": " Concert"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-photo-showing-two-wives-of-a-police-officer-who-gave-birth-on-the-same-day.png",
+        "ground_truth": "Original images were captured to share the extraordinary occurrence of two women giving birth to triplets three weeks apart in the same hospital.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-old-photos-shared-as-pictures-of-indian-army-vehicles-that-were-hit-by-a-massive-landslide-in-ladakh.png",
+        "ground_truth": "1) To showcase a rescue operation, 2) To report an accident, 3) To report an accident",
+        "output": " To showcase achievements"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-a-photo-of-chinese-actor-jackie-chan-wearing-a-t-shirt-branded-with-the-face-of-gen-5e765612d0e3.png",
+        "ground_truth": "Capture a moment from the 'Kick It With the Karate Kid' Street Festival.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-pictures-claiming-to-show-a-climate-change-activist-supporting-the-eacop-project-are-d40a7168238d.png",
+        "ground_truth": "To criticize the EACOP project",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-sp-leader-azam-khan-with-a-shaved-head-is-an-edited-one.png",
+        "ground_truth": "Akhilesh Yadav shared the image as a get well message to Azam Khan who was in hospital",
+        "output": " To capture a moment"
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-do-not-show-a-tplf-weapons-depot-destroyed-by-the-ethiopian-air-force-in-shire-fe13bd3303c6.png",
+        "ground_truth": "The images had different motivations: to showcase destroyed Russian equipment in Ukraine, losses of Russia in Ukraine, activity of Russia in Ukraine, and the action of the Ukrainian army against Russian troops, respectively.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-images-do-not-show-tplf-tanks-destroyed-in-raya-in-2022-f16249b7c513.png",
+        "ground_truth": "To document the destruction caused by the ongoing conflict between the Ethiopian National Defense Force (ENDF) and the Tigray People\u2019s Liberation Front (TPLF)",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-does-not-show-two-men-arrested-in-possession-of-human-bones-in-kenya-b554f5fb6ea.png",
+        "ground_truth": "To report on the arrest of two men in Cameroon who were in possession of human skulls and bones",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-isnt-of-an-ethiopian-air-force-drone-attack-on-tplf-forces-524d3ee61bd0.png",
+        "ground_truth": "Originally the image captured was the Turkish Bayraktar TB2 unmanned aerial vehicle",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-of-general-muhoozi-kainerugaba-pouring-himself-a-beer-is-doctored-113180ba316c.png",
+        "ground_truth": "To capture the launch of a new beer by Nile Breweries",
+        "output": " To show two different things"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-isnt-of-the-ethiopian-air-force-dropping-warning-leaflets-on-mekelle-city-25863e4f278.png",
+        "ground_truth": "The original image was used to illustrate US soldiers dropping leaflets over a village near Hawijah in Kirkuk province, Iraq, with the intention to promote the idea of self-government to area residents",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-a-helicopter-made-at-arusha-technical-college-tanzania-fcafb848e7b4.png",
+        "ground_truth": "Reporting on PM Modi laying the foundation stone for HAL\u2019s chopper facility in Tumakuru",
+        "output": " For advertisement"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-of-a-man-beaten-by-police-was-not-taken-in-uganda-bc13c9ed67b3.png",
+        "ground_truth": "To record a case of police brutality in Tshwane, South Africa.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-image-of-ethiopian-politician-getachew-reda-is-doctored-7528c14a39d1.png",
+        "ground_truth": "The original image was created for commercial purposes - 'Lawyer lying in a coffin still holding his briefcase'.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-does-not-show-an-attack-on-tigray-by-the-ethiopian-air-force-17cfbc1839c2.png",
+        "ground_truth": "To depict a U.S. Marine Corps F/A-18 Hornet fight aircraft with Marine Fighter Attack Squadron 323 during a training mission.",
+        "output": " To show off jet"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-doesnt-depict-ethiopian-national-defense-forces-in-selekleka-town-tigray-region-in-9d980eee616c.png",
+        "ground_truth": "To report on the conflict in the Amhara region, Ethiopia",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-doesnt-show-the-ethiopian-army-controlling-shire-alamata-and-korem-towns-in-october-ad9b99245da.png",
+        "ground_truth": "The original image was used to showcase the 'victory of the factional army led by Prime Minister Abiy Ahmed in the Gishen front.'",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-images-are-not-of-the-ethiopian-army-controlling-tigray-towns-in-october-2022-57c9b8059f7f.png",
+        "ground_truth": "Varies based on the original purpose of each image. Some images depict military operations or aftermath. Others show abandoned military equipment",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-isnt-of-ethiopian-soldiers-controlling-aksum-in-october-2022-4651852c6050.png",
+        "ground_truth": "The original motivation behind the image is to highlight Ethiopian soldier Geremew Demse's transition from UN Interim Security Force for Abyei (UNISFA) to Mahbere Dego Massacre",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-picture-of-tplf-spokesperson-getachew-reda-in-a-hospital-bed-is-doctored-66f84fb60994.png",
+        "ground_truth": "To depict a coronavirus patient receiving treatment in a Johannesburg hospital.",
+        "output": " To showcase Linet Toto's work."
+    },
+    {
+        "img_path": "dataset/processed_img/old-and-unrelated-pictures-shared-as-the-latest-pictures-of-imran-khan-after-he-was-shot-at-during-gujranwala-rally.png",
+        "ground_truth": "To document the Azadi March rally",
+        "output": " Political"
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-of-pm-modi-holding-photo-frame-of-sidhu-moose-wala-is-a-morphed-one.png",
+        "ground_truth": "Depict the event where PM Modi launched Indian Gold Coins",
+        "output": " To showcase the man's achievement"
+    },
+    {
+        "img_path": "dataset/processed_img/pictures-of-a-100-feet-long-american-dream-car-falsely-shared-as-shahrukh-khans-limousine-in-dubai.png",
+        "ground_truth": "The original photographs were intended to showcase the American Dream car, which held a record for being the world's longest car.",
+        "output": " Campaign"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-is-not-of-a-road-in-kenya-7ed27431d90.png",
+        "ground_truth": "The wave-shaped design of the road is convenient for the merchants on each floor to drive the car to the door.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/partly-false-one-of-the-images-is-not-related-to-a-rocket-attack-on-shire-town-8ff50793545.png",
+        "ground_truth": "To document the presence of an unexploded rocket launcher BM-21 \u201cGrad\u201d on the Saltovsky massif in Kharkiv ; To document the aftermath of a rocket attack in Shire Town, Tigray",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-does-not-show-kenyans-queuing-to-receive-relief-food-283d0a21a397.png",
+        "ground_truth": "To highlight the impact of Covid-19 economic downturn on people in South Africa, leading to food aid distribution",
+        "output": " To document the pandemic"
+    },
+    {
+        "img_path": "dataset/processed_img/morphed-image-shared-as-first-picture-of-ranbir-kapoor-and-alia-bhatt-couples-newborn-baby-girl.png",
+        "ground_truth": "To share her personal life event - birth of her identical twin boys",
+        "output": " To show baby"
+    },
+    {
+        "img_path": "dataset/processed_img/pictures-of-manmohan-singh-and-pm-modi-at-g20-summits-are-compared-with-a-misleading-narrative.png",
+        "ground_truth": "To capture world leaders during the G20 summit.",
+        "output": " To show india and france"
+    },
+    {
+        "img_path": "dataset/processed_img/false-images-are-not-of-a-tanzanian-pastor-who-opened-a-sex-church-in-kenya-1abc7343fcaa.png",
+        "ground_truth": "Document alleged behavior of Onesmo Machibya alias Nabii Tito in 2018",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-images-of-a-plane-crash-at-entebbe-international-airport-are-misleading-84114b8e2810.png",
+        "ground_truth": "To conduct an emergency exercise to test the airport\u2019s readiness in case of an emergency involving passenger aircraft veering off the runway and catching fire",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-the-border-bridge-linking-uganda-and-kenya-a740cc82855a.png",
+        "ground_truth": "Photograph was likely created to document the commissioning of a new infrastructure project at the Nigeria/Cameroon border",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-photo-does-not-show-the-drought-situation-in-embolioi-kajiado-county-in-october-2022-3387774a4c74.png",
+        "ground_truth": "To document the impact of drought in the East African region in 2017",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/this-picture-is-not-a-rare-photograph-of-the-chola-princess-kundavai.png",
+        "ground_truth": "Original portrait of a seated girl from Madras, c. 1872",
+        "output": " To showcase the British museum in malasia"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-isnt-that-of-the-bugolobi-luzira-road-in-kampala-uganda-5cd831a61828.png",
+        "ground_truth": "To highlight the state of National Highway 227 in Madhubani district, Bihar, India",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-no-this-image-isnt-of-russia-s-attack-on-nato-warplanes-6901ea13876d.png",
+        "ground_truth": "The original author of the image used it in an article about a Russian plane crash during a test flight.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-image-said-to-be-of-citizen-tv-referring-to-raila-odinga-as-a-bondo-resident-is-doctored-9a16aa52138c.png",
+        "ground_truth": "The original video was about Raila Odinga addressing the media on extrajudicial killings.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-doesnt-show-an-airstrike-on-tplf-leaders-482319be6c72.png",
+        "ground_truth": "The original intention behind capturing the image is not specified.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-pakistani-womans-photo-is-shared-as-that-of-a-love-jihad-victim-in-india.png",
+        "ground_truth": "Image 1: To report on Hindu-Muslim unity; Image 2: To report on domestic violence incident in Pakistan",
+        "output": " To show the news"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-was-messi-locked-up-in-saudi-arabia-no-an-old-picture-first-used-in-2012.png",
+        "ground_truth": "To capture Lionel Messi's arrival in Saudi Arabia for a promotional event",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-old-photo-is-shared-as-beer-cans-masked-as-soft-drinks-during-the-qatar-fifa-world-cup-2022.png",
+        "ground_truth": "Document the smuggling incident of beer cans masked as Pepsi cans into Saudi Arabia in 2015",
+        "output": " To show pepsi can"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-isnt-of-russian-military-equipment-used-to-disable-ukraine-s-weapons-daef46a66d67.png",
+        "ground_truth": "To capture images of Ukrainian soldiers in action against Russian forces.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/partly-false-some-of-these-images-do-not-show-the-bombing-in-mendi-and-the-victims-a9daf5a813bb.png",
+        "ground_truth": "Multiple motivations depending on the image (including military documentation and news reporting on various conflict events)",
+        "output": " To showcase the plane's capabilities"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-doesnt-show-victims-of-hunger-in-oromia-4b8818de03a3.png",
+        "ground_truth": "The original image was captured to portray the condition of famine-stricken Somalians waiting for medical assistance from 'The Gift of the Givers' in a makeshift medical camp in Mogadishu.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/pictures-of-col-navjot-singh-bal-who-died-in-april-2020-shared-as-recent-pictures-of-a-hospitalised-indian-army-soldier.png",
+        "ground_truth": "The original posting by Neeraj Rajput was in homage to Colonel Navjot Singh Bal, highlighting his courage in the face of a rare cancer",
+        "output": " To showcase the man's athletic achievement"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-does-not-show-a-victim-of-an-airstrike-in-mendi-2d1a09356b80.png",
+        "ground_truth": "To capture and report on the events at the Irreechaa, the thanksgiving festival of the Oromo people",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-used-to-show-construction-of-likoni-bypass-is-not-from-kenya-58edacf9d8a4.png",
+        "ground_truth": "The original photo was taken to document an interstate highway in the USA for journalistic or informational purposes.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-is-not-of-fulani-militants-captured-in-nigeria-6085eab22182.png",
+        "ground_truth": "First Image: Highlight the seizure of weapons after a terrorist attack; Second Image: Document the capture of Ethiopians entering Malawi illegally",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-picture-of-barack-obama-and-joe-biden-posing-with-bobi-wine-is-doctored-30b98b24de1f.png",
+        "ground_truth": "Campaign purposes for Obama's presidency and Biden's vice-presidency",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-is-not-of-a-sexually-explicit-textbook-being-used-in-kenyas-cbc-education-system-a047d95d4b8e.png",
+        "ground_truth": "The original book was created to educate children on how to protect themselves from the AIDS scourge using \u201cFacts of life\u201d and \u201cwithout clouding issues or hiding behind falsehood and euphemism.\u201d",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-yes-these-images-show-a-traffic-jam-along-seventh-day-gudele-street-in-juba.png",
+        "ground_truth": "To document the traffic situation along Gudele street, Juba",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/these-images-have-no-relation-to-the-recent-anti-brahmin-slogans-issue-at-jnu.png",
+        "ground_truth": "To promote the idea of Gender-neutral fashion.",
+        "output": " To show off my work"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-in-this-post-is-not-of-an-airstrike-on-nunu-kumba-east-wollega-in-november-2022-dc610d3c957c.png",
+        "ground_truth": "Showcasing the US Navy's MQ-8C Fire Scout unmanned helicopter",
+        "output": " Military"
+    },
+    {
+        "img_path": "dataset/processed_img/these-images-do-not-show-people-who-wrote-anti-brahmin-slogans-on-jnu-walls.png",
+        "ground_truth": "The original images were shared by CASR to report about their members who were injured in a scuffle with ABVP at Delhi University.",
+        "output": " To showcase Linet Toto"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-is-not-of-amhara-genocide-in-oromia-2cb75cc7d104.png",
+        "ground_truth": "The original photograph was taken to document Rwandan boy's grief and the effect of the Hutu-Tutsi violence in Rwanda",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-image-is-not-of-ethiopia-preparing-to-launch-its-second-satellite-748000198215.png",
+        "ground_truth": "To showcase the payload fairing that houses RISAT2BR1 & 9 customer satellites",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-in-this-post-doesnt-show-arms-taken-from-ethiopian-government-forces-ddd3713f14f8.png",
+        "ground_truth": "Report on the recovery of weapons from members of Pakistan Tehreek-e-Insaf in Lahore",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/partly-false-these-images-are-not-of-a-protest-in-ethiopias-mekelle-city-in-november-2022-b997dcb26af8.png",
+        "ground_truth": "Showcase Mekelle University students meeting their families ; Depict a visit to the Martyrs\u2019 Memorial Monument",
+        "output": " Protest"
+    },
+    {
+        "img_path": "dataset/processed_img/these-images-do-not-show-a-crowd-gathering-at-rahul-gandhis-bharat-jodo-yatra-in-rajasthan.png",
+        "ground_truth": "To document the crowd at Pujya Dada Guru Maharaj\u2019s holy Bhandara event",
+        "output": " Protest"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-south-sudanese-pastor-bathing-women-in-church-no-the-photos-are-by-a-ghanaian-skitmaker.png",
+        "ground_truth": "Mark Mensah creates skits. He is often called 'Pastor Blinks'",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/edited-image-shared-as-rahul-gandhi-wearing-a-babas-attire.png",
+        "ground_truth": "The original photo was captured to document Rahul Gandhi's Bharat Jodo Yatra.",
+        "output": " To show man with beard"
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-are-not-of-fulani-kidnappers-captured-with-arms-by-the-biafran-vigilante-6a487bb9e1dd.png",
+        "ground_truth": "First Image: Depicting an attack by a criminal gang in Kenya, Second Image: Reporting the arrest of Al Shabaab terrorists in Kenya",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-a-25-metre-skeleton-found-in-gojjam-ethiopia-12e70b1c10bf.png",
+        "ground_truth": "The image was initially part of a hoax. Additionally, National Geographic used the image in an effort to explain how the hoax started and debunk it.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-a-drone-attack-on-the-oromo-liberation-army-d27b1cb17711.png",
+        "ground_truth": "The original photo was captured to depict an unmanned military drone for news and stock purposes",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-japans-dressing-room-after-they-lost-to-costa-rica-in-the-fifa-2022-997e4c3272b4.png",
+        "ground_truth": "To report the state of Italy\u2019s dressing room after they lost a World Cup Qualifier match to North Macedonia",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-the-eritrean-army-leaving-the-tigray-region-in-november-2022-a8631945a6da.png",
+        "ground_truth": "To document the return of Eritrean soldiers from the Adi-Quala front lines.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-an-airstrike-around-ambo-town-in-november-2022-682afb9ef13.png",
+        "ground_truth": "The A-10C Thunderbolt II Demonstration Team posted the image to promote an upcoming air show.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-in-this-post-is-not-of-eritrean-troops-withdrawing-from-tigray-ethiopia-in-november-5ff0d86cf0.png",
+        "ground_truth": "To document the Eritrean soldiers' activities during the Ethio-Eritrea war",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-no-this-photo-is-unrelated-to-victims-of-the-conflict-in-wollega-2c2340073401.png",
+        "ground_truth": "To document the plight of a 19-year-old Rohingya refugee and her daughter who fled to Bangladesh due to religious persecution.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-is-not-of-an-airstrike-attack-on-ethiopias-bedasa-jarso-town-in-december-2022-5f7349e85421.png",
+        "ground_truth": "To depict a UAV with serial number A041\u201365, operated by the Iranian Army Ground Force\u2019s Vali-e Asr Drone Group, shortly after taking off at Iran\u2019s Muhammad Rasullullah wargames exercise",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/satire-this-image-of-charlene-ruto-selling-smokies-during-her-time-at-daystar-university-is-dc8f27ca9d57.png",
+        "ground_truth": "The original image was used in an article about the new rules for smokies vending",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/old-photo-of-a-flying-drone-strapped-hanuman-idol-shared-as-a-picture-of-real-hanuman-flying-in-sky.png",
+        "ground_truth": "Promotion for their TV mythological show, \u2018Sankatmochan Mahabali Hanuman\u2019",
+        "output": " To capture kite"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-isnt-of-an-airstrike-on-west-sheger-8e9be4e631dc.png",
+        "ground_truth": "The original photo captured a U.S. Air Force MQ-1B Predator unmanned aerial vehicle (UAV), carrying a Hellfire missile landing at a secret air base after flying a mission in the Persian Gulf region",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-victims-of-wollega-massacre-90aa8ef2d154.png",
+        "ground_truth": "The original image was captured to highlight a food crisis in Ethiopia.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-photo-is-not-of-tigray-forces-in-control-of-korem-city-after-the-november-2022-peace-deal-606045c0fc9d.png",
+        "ground_truth": "The original photo was used in an article titled 'Tigray Defence Forces (TDF) freedom fighters' but the underlying motivation behind the capture and use of the image is not specified.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-is-not-of-oromia-police-officers-joining-protests-in-december-2022-6e32950d24ad.png",
+        "ground_truth": "The original author captured the image to represent demonstrations taking place in the Oromia regional state against killings and displacements of civilians.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-are-not-of-crowds-at-raila-odingas-kamukunji-rally-9d48be315c16.png",
+        "ground_truth": "1) Document arrival of Raila Odinga from USA, 2) Document a political rally held by Raila Odinga",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-kenyas-health-cs-susan-nakhumicha-flagging-off-a-surgery-procedure-700bba8060b5.png",
+        "ground_truth": "To showcase the simulation laboratory where health training exercises are conducted",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-does-not-show-us-army-personnel-who-had-undergone-an-ear-reconstruction-surgery-on-forearm.png",
+        "ground_truth": "Stelarc intentionally grew an extra third ear on his arm for artistic purposes and to make a remote listening device for people in other places.",
+        "output": " To showcase the man's unique tattoo."
+    },
+    {
+        "img_path": "dataset/processed_img/old-photo-allegedly-related-to-the-2020-galwan-clash-shared-now-in-the-context-of-the-recent-india-china-scuffle-in-the-tawang-sector.png",
+        "ground_truth": "To present a depiction of Indian soldiers taken captive following the Galwan Valley clash",
+        "output": " Political"
+    },
+    {
+        "img_path": "dataset/processed_img/false-image-is-not-of-ethnic-amharas-facing-execution-in-oromia-eaf70090091.png",
+        "ground_truth": "The original motivation was to report an incident involving the execution of two soldiers in Somalia",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-picture-of-moroccan-footballers-holding-an-oromo-liberation-front-flag-has-been-doctored-9c93c1b337b0.png",
+        "ground_truth": "To celebrate Moroccan football team's performance in the World Cup.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-of-ethiopian-house-of-federation-speaker-agegnehu-teshager-is-doctored-27a28c6032a6.png",
+        "ground_truth": "To show Agegnehu Teshager holding the Fasil Kenema Football Club's logo",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-martha-karua-in-the-bahamas-4fe8d381bd67.png",
+        "ground_truth": "Martha Karua published this image to document her boat ride at the Kenyan coast on her Instagram page",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-the-image-is-not-of-oromia-special-forces-beating-ethnic-amhara-students-in-december-2022-e7a687291004.png",
+        "ground_truth": "To document the alleged harassment of students in Oromia by security forces during a protest in January 2016",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/this-post-shares-an-edited-image-to-claim-that-cristiano-ronaldo-is-supporting-argentina.png",
+        "ground_truth": "Ronaldo posted this picture in support of his team while he was in quarantine due to COVID-19, and they were playing a game in the Nations League against Sweden.",
+        "output": " Soccer"
+    },
+    {
+        "img_path": "dataset/processed_img/old-photo-of-ronaldo-shared-as-that-captured-during-the-2022-argentina-france-football-world-cup-final.png",
+        "ground_truth": "To capture Cristiano Ronaldo attending a UEFA Champions League Group H match between Juventus and BSC Young Boys.",
+        "output": " Election"
+    },
+    {
+        "img_path": "dataset/processed_img/an-altered-image-shared-as-a-picture-of-joe-biden-touching-volodymyr-zelenskyys-posterior-during-their-recent-meeting-at-the-white-house.png",
+        "ground_truth": "To depict the meeting between Joe Biden and Volodymyr Zelenskyy at The White House",
+        "output": " To capture moment"
+    },
+    {
+        "img_path": "dataset/processed_img/old-image-of-traffic-jam-in-manali-during-christmas-new-year-holidays-shared-as-recent-one.png",
+        "ground_truth": "Yash captured the image to document traffic conditions on the Leh-Manali Highway during his visit.",
+        "output": " New year holidays"
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-pictures-are-being-attributed-to-pm-narendra-modis-late-mother-heeraben-modi.png",
+        "ground_truth": "Family picture of Maryala Srinivas ; Picture of Vasanthiben Modi, sister of Narendra Modi ; Interview of film journalist Bhawana Somaaya",
+        "output": " Rip heeraben"
+    },
+    {
+        "img_path": "dataset/processed_img/2019-photo-of-deepika-padukone-linked-to-the-ongoing-row-over-her-saffron-coloured-costume-in-pathaan-film.png",
+        "ground_truth": "Share a glimpse of Deepika Padukone's appearance at the 2019 Cannes Film Festival",
+        "output": " Election"
+    },
+    {
+        "img_path": "dataset/processed_img/morphed-photo-shared-as-rahul-gandhi-consuming-alcohol-and-non-veg-food.png",
+        "ground_truth": "Documenting Rahul Gandhi's activities during Bharat Jodo Yatra",
+        "output": " To show man's beard"
+    },
+    {
+        "img_path": "dataset/processed_img/both-these-images-show-cleaning-by-indian-railways-under-the-current-nda-government.png",
+        "ground_truth": "Documented the condition of Howrah Junction railway station after lockdown amid the COVID-19 pandemic ; Documented the cleaning of Asansol railway station during the 'Swachhta Saptah' event",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-massacre-in-oromia-by-fano-and-eritrean-forces-deacf501b384.png",
+        "ground_truth": "To document a mass burial of Amhara people in Metekel, Benishangul",
+        "output": " Election"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-raila-odinga-watching-president-rutos-media-roundtable-interview-on-4-d8679f442bd1.png",
+        "ground_truth": "The original image was captured when Odinga was following the Supreme Court presidential election petition ruling",
+        "output": " To showcase the president's visit to the country."
+    },
+    {
+        "img_path": "dataset/processed_img/fact-checking-president-kaguta-musevenis-tweet-of-an-image-of-rwenzori-mountains-1ee7e224ad94.png",
+        "ground_truth": "The original photo was taken by Eakkapan Asavapanumas, likely with the motivation of capturing the beauty of the New Zealand landscape.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-picture-does-not-show-houses-torched-by-oromia-security-forces-and-oromia-liberation-b24f7294d1fe.png",
+        "ground_truth": "The original usage of the image was to accompany the article titled 'Ethiopia: Armed Group Controls Sedal Woreda.', this suggests its purpose was tied to that article's subject matter.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/digitally-edited-image-shared-as-visuals-of-police-guarding-a-theatre-screening-pathaan-movie.png",
+        "ground_truth": "To document the security provided for the controversial release of the Padmavat movie in 2018",
+        "output": " Movie"
+    },
+    {
+        "img_path": "dataset/processed_img/2021-photo-of-bjp-and-congress-leaders-meeting-speaker-om-birla-shared-as-bjps-secret-meeting-with-congress.png",
+        "ground_truth": "Report on a formal meeting at Parliament",
+        "output": " To show people with masks"
+    },
+    {
+        "img_path": "dataset/processed_img/missing-context-this-picture-is-not-from-a-scene-of-a-protest-in-sudan-in-january-2023-214f4a04a854.png",
+        "ground_truth": "To document a protest against military rule in Khartoum, Sudan",
+        "output": " Protest"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-picture-is-not-related-to-an-attack-on-fano-troops-87ef80275ab4.png",
+        "ground_truth": "The original image was captured and shared to report a public transport bus that caught fire.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-amhara-special-forces-on-the-move-from-raya-in-december-2022-cd16c28972b9.png",
+        "ground_truth": "To report the detention of more than 400 ethnic Amhara soldiers due to disagreement with the regional government",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/english-this-photo-does-not-show-a-1400-year-old-pallava-stonework-at-lalgiri-temple.png",
+        "ground_truth": "Artwork creation",
+        "output": " To showcase the artist's work"
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-shows-rahul-gandhi-with-britains-labour-party-leader-not-with-bbc-producer.png",
+        "ground_truth": "Provides evidence of Rahul Gandhi's meeting with Britain\u2019s Labour party leader Jeremy Corbyn",
+        "output": " To show politicians"
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-are-not-of-south-african-school-children-who-died-from-the-covid-19-vaccine-9e6c9d3672b2.png",
+        "ground_truth": "The original video was made to provide news coverage and document the school stampede incident.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-a-man-detained-in-nyamache-kisii-county-for-defiling-his-two-children-3db251db8c7c.png",
+        "ground_truth": "To report on a man caught removing drips from cholera patients at Limbe Health Centre in Blantyre, Malawi.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-an-aerial-view-of-kenyas-masinde-muliro-university-of-science-and-c3cfe8034fbf.png",
+        "ground_truth": "Albert Chime used his new drone to take aerial photos of his Alma Mater, University of Ghana, where he grew up his passion",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-related-to-the-disarmament-of-oromia-special-forces-in-december-2022-fefbd0933ea0.png",
+        "ground_truth": "Original usage was related to the Oromo Liberation Army",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-is-not-a-picture-of-sea-spiders-in-south-africa-b681fd8068c3.png",
+        "ground_truth": "To alert against invasive species in the area",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-odaa-buses-transporting-fano-and-eritrean-troops-to-oromia-9b1dfb399fb6.png",
+        "ground_truth": "The original display of the image was to report on Odaa Integrated Transport SC importing buses and opening two petrol stations.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/2015-photo-shared-as-a-recent-picture-of-mukesh-ambanis-family-posing-a-selfie-with-shah-rukh-khan-while-watching-the-pathaan-film.png",
+        "ground_truth": "To capture a moment at the Reliance Jio 4G launch event where Shah Rukh Khan was taking a selfie with the Ambani family",
+        "output": " Celebration"
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-of-bbc-displaying-a-distorted-map-of-india-is-not-related-to-the-recent-controversial-documentary.png",
+        "ground_truth": "Coverage of Narendra Modi's foreign visits",
+        "output": " To showcase the beauty of India"
+    },
+    {
+        "img_path": "dataset/processed_img/photo-taken-during-the-arrival-of-the-statue-of-our-lady-of-fatima-in-buka-island-shared-as-from-bangalore-with-a-false-narrative.png",
+        "ground_truth": "To document the arrival of the 'Our lady Fatima' statue in Papua New Guinea",
+        "output": " To capture a moment"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-burning-houses-belonging-to-wollo-oromo-people-943b1db048dc.png",
+        "ground_truth": "To report about a fire that occurred in a marketplace in Kola Diba town causing property damage",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-wasnt-taken-in-ataye-town-amhara-region-87e1477ab3ba.png",
+        "ground_truth": "The original image appears to have been captured to report on a protest event in Nekemte in 2018.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/morphed-photo-shared-as-the-picture-of-an-indian-expressing-his-love-for-babar-azam-over-virat-kohli-during-india-vs-new-zealand-match.png",
+        "ground_truth": "The original aim was to show a fan's love for M.S. Dhoni over Sachin Tendulkar, capturing a memorable moment from the Mumbai Indians vs Royal Challengers Bangalore IPL match.",
+        "output": " Sports"
+    },
+    {
+        "img_path": "dataset/processed_img/an-edited-photo-of-yogi-adtyanath-is-shared-as-the-visuals-of-him-watching-pathaan.png",
+        "ground_truth": "To share an image of Yogi Adityanath watching the FIFA World Cup final.",
+        "output": " To show living room"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-a-girl-being-caned-in-kuria-kenya-for-resisting-fgm-5a1d1be55bfc.png",
+        "ground_truth": "The original author aimed to alert about the incident in DRC where Mai-mai militia men were beating women for wearing skirts deemed too short",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-president-muhammadu-buharis-helicopter-following-an-attack-at-kano-eea615f24549.png",
+        "ground_truth": "To convey the news of an attack on the Kenyan politician\u2019s helicopter",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-a-school-in-nigeria-f92204ef267.png",
+        "ground_truth": "The original motivation of capturing the image of Mangororo Primary School in Kilifi County may have been to document and highlight the conditions of the school, especially considering its impact from heavy rains. However, this information is not specifically stated in the fact-checking article.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-photo-of-bobi-wine-standing-next-to-an-lgbt-branded-banner-is-doctored-2452c4776e21.png",
+        "ground_truth": "Not specified, but the original image was taken during the S&D 5th annual Africa Week Conference at the European Parliament in Brussels.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/old-image-of-a-dog-lying-next-to-a-human-trapped-under-rubble-is-attributed-to-the-recent-earthquake-in-turkey.png",
+        "ground_truth": "The image seems to be used for portraying an aftermath of an earthquake, but exact motivation is not specified.",
+        "output": " For fun"
+    },
+    {
+        "img_path": "dataset/processed_img/the-person-standing-beside-rahul-gandhi-in-this-photo-is-not-nathan-anderson-the-founder-of-hindenburg-research.png",
+        "ground_truth": "Publicity for Rahul Gandhi\u2019s tour and meeting with Niels Annen",
+        "output": " To show off their friendship"
+    },
+    {
+        "img_path": "dataset/processed_img/morphed-pictures-shared-as-pm-modi-wearing-an-islamic-skull-cap.png",
+        "ground_truth": "PM Modi's visit to the Aljamea-tus-Saifiyah Arabic Academy for inauguration",
+        "output": " To show people praying"
+    },
+    {
+        "img_path": "dataset/processed_img/old-photos-are-shared-linking-them-to-the-recent-turkey-earthquake.png",
+        "ground_truth": "Capture of everyday events ; not enough information ; To document the aftermath of Turkey's 1999 earthquake ; To document the 2023 earthquake damage in Turkey",
+        "output": " To show the boy's sadness"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-a-kibabii-university-student-fighting-a-lecturer-a39aa865022e.png",
+        "ground_truth": "The incident was reported in the news",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-this-photo-is-not-of-ugandans-killed-in-juba.png",
+        "ground_truth": "The original photo was captured as a record of the tragedy of over 20 Kajo-Keji residents killed in a cattle-related incident in South Sudan\u2019s Central Equatoria State",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/the-rape-accused-with-a-bitten-lip-in-the-photo-is-not-a-muslim.png",
+        "ground_truth": "Report on a crime incident",
+        "output": " To show man's face"
+    },
+    {
+        "img_path": "dataset/processed_img/photo-of-jaggi-vasudev-with-his-daughter-radhe-jaggi-is-shared-with-a-misleading-narrative.png",
+        "ground_truth": "To celebrate Father\u2019s Day in 2018",
+        "output": " To showcase the politician"
+    },
+    {
+        "img_path": "dataset/processed_img/an-old-photo-of-mehbooba-mufti-offering-milk-to-goddess-ragnya-devi-is-shared-as-recent.png",
+        "ground_truth": "Documenting the visit of Mehbooba Mufti, then Chief Minister of erstwhile J&K state, at the Kheer Bhavani Mandir",
+        "output": " To showcase a religious event"
+    },
+    {
+        "img_path": "dataset/processed_img/old-photo-from-afghanistan-is-shared-as-people-trying-to-escape-pakistan-due-to-the-economic-crisis.png",
+        "ground_truth": "To capture the gathering of Afghan men waiting to collect tokens needed to apply for a Pakistan visa",
+        "output": " To show people having fun"
+    },
+    {
+        "img_path": "dataset/processed_img/digitally-altered-image-shared-as-recent-picture-of-joe-biden-eating-ice-cream-in-ukraine.png",
+        "ground_truth": "Capture a candid moment of Joe Biden eating ice cream during a visit to Cleveland, Ohio",
+        "output": " To show man eating ice cream"
+    },
+    {
+        "img_path": "dataset/processed_img/turkey-earthquake-game-of-thrones-still-falsely-shared-as-photo-of-trapped-couple.png",
+        "ground_truth": "To depict a scene in the Game of Thrones series",
+        "output": " To capture a moment"
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-photos-are-not-of-cattle-thieves-relocating-to-uganda-in-february-2023-91db256c2f0.png",
+        "ground_truth": "Documenting Pokot herders and their day-to-day activities ; Documenting a Pokot warrior herding his cattle ; not enough information",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-ethiopian-soldiers-held-in-somaliland-7b4e23de5316.png",
+        "ground_truth": "Reporting of Al Shabaab members arrest in Ethiopia",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-some-of-these-images-are-unrelated-to-the-drought-in-borena-oromia-region-34ce2e146d48.png",
+        "ground_truth": "To showcase the impact of drought on livestock around settlement in Amboseli, Kenya ; To depict the tragedy of livestock dying in the Horn of Africa ; not enough information",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-from-a-scene-of-the-current-drought-in-borena-21a31c316a75.png",
+        "ground_truth": "To call for urgent support for drought-affected older people in Ethiopia.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/2013-photo-of-bhojpuri-actor-irfan-khans-arrest-shared-now-with-naayi-jihad-narrative.png",
+        "ground_truth": "To report on the arrest of Bhojpuri actor Irfan Khan and his friend Sanjay Yadav on charges of credit card theft",
+        "output": " To capture moment"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-photo-purportedly-of-oromia-region-president-shimelis-abdisa-is-doctored-aeab220e1a4e.png",
+        "ground_truth": "This image was originally captured as a portrait of Abune Sawiros, an archbishop of the Ethiopian Orthodox Tewahedo Church.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-of-a-damaged-highway-pillar-was-not-taken-in-uganda-fec27c4c57ca.png",
+        "ground_truth": "To document the aftermath of an earthquake in Japan",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-the-image-is-unrelated-to-current-drought-in-borena-a9e44c7e446a.png",
+        "ground_truth": "To document and raise awareness of the plight of internally displaced individuals in Somalia",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-this-image-was-not-taken-in-juba.png",
+        "ground_truth": "The original intention behind capturing the image was to call attention to the increase of street children in urban cities of Uganda, and the efforts of one such child to protect himself from malaria by setting up a mosquito net.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-photos-shared-as-pictures-of-unaccounted-money-and-jewellery-seized-by-ed-at-lalu-prasad-yadavs-house.png",
+        "ground_truth": "Each image was originally captured to report on different raids and seizures by the Enforcement Directorate",
+        "output": " To show money"
+    },
+    {
+        "img_path": "dataset/processed_img/no-this-image-doesnt-show-p-chidambaram-touching-jayalalithas-feet.png",
+        "ground_truth": "To document the political culture in Tamil Nadu",
+        "output": " To capture a moment"
+    },
+    {
+        "img_path": "dataset/processed_img/photos-of-a-rock-structure-in-thailands-naga-cave-shared-as-a-giant-snake-spotted-in-switzerland.png",
+        "ground_truth": "To showcase a fascinating rock structure in the shape of a giant snake, which is a tourist attraction in Thailand.",
+        "output": " To show the rock formation"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-fred-matiangi-detained-at-central-police-station-on-7-march-2023-599a22bbb3a4.png",
+        "ground_truth": "Matiang\u2019i appeared at the Directorate of Criminal Investigations (DCI) headquarters in response to summons over claims of publishing false information",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-eritrean-forces-burning-forests-in-tigray-region-in-march-2023-d925485aa373.png",
+        "ground_truth": "The original author captured the image to report on the wildfire outbreak in the Wof Washa forest in Amhara Region.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-azimio-protesters-arresting-a-police-officer-in-nairobi-on-20-march-de749996ecb4.png",
+        "ground_truth": "To document an instance of a police officer being arrested for alleged electoral malpractice",
+        "output": " Political"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-these-images-are-not-of-a-protest-in-nairobi-kenya.png",
+        "ground_truth": "Originally captured to depict a fracas over a housing controversy near the Heatherly Cemetery in Mamelodi East.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/turkey-earthquake-picture-shared-as-that-of-a-collapsed-building-following-the-earthquake-in-jammu-and-kashmir.png",
+        "ground_truth": "To report on the earthquake in Kahramanmaras, Turkey",
+        "output": " To show destruction"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-recycled-condoms-for-sale-seized-from-moi-university-students-d1eb14ef4fec.png",
+        "ground_truth": "Covering the news of a condom recycling facility being busted in Vietnam.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/morphed-photo-shared-as-dr-b-r-ambedkars-poster-displayed-on-longest-us-train.png",
+        "ground_truth": "To depict a representative image of the Delhi Metro rail.",
+        "output": " Advertisement"
+    },
+    {
+        "img_path": "dataset/processed_img/fake-these-are-not-real-images-of-donald-trump-being-arrested-ebcb194ef996.png",
+        "ground_truth": "Eliot Higgins created these images as an illustrative fiction while waiting for Trump's arrest",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-30-men-standing-on-audis-dkw-car-has-nothing-to-relate-with-china.png",
+        "ground_truth": "To demonstrate the strength of AUDI\u2019s DKW \u201cFront Reichsklasse\u201d Type F7 car launched in 1937 with 30 men standing on the roof",
+        "output": " Protest"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-photo-of-ethiopian-activist-taye-bogale-on-the-way-of-medemer-cover-is-doctored-c8e97e2757ca.png",
+        "ground_truth": "The image was used for the book cover of 'The Way of Medemer'",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/missing-context-this-image-is-not-of-ethiopian-government-forces-entering-somalia-in-march-2023-3bc2389b3712.png",
+        "ground_truth": "Capture the event of the Ethiopian National Defence Force taking position ahead of a planned battle with Al Shabaab militants.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-a-ugandan-in-a-gay-wedding-in-canada-1e43127f6a80.png",
+        "ground_truth": "Original author captured the image as a representation of Wayne Mulenga's marriage ceremony in Manchester",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/the-man-posing-with-pm-modi-in-this-photo-is-not-gujarat-conman-kiran-patel.png",
+        "ground_truth": "To capture Narendra Modi's visit to USA during 1994",
+        "output": " To show off the men"
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-old-photo-shared-as-picture-taken-when-arvind-kejriwal-offered-an-apology-to-nitin-gadkari.png",
+        "ground_truth": "To document the event when Arvind Kejriwal met Nitin Gadkari over the regularisation of e-rickshaws at the Transport Bhawan in Delhi.",
+        "output": " Political"
+    },
+    {
+        "img_path": "dataset/processed_img/viral-image-of-snake-with-alleged-nagamani-is-manipulated.png",
+        "ground_truth": "Coverage of a local incident in Madhya Pradesh where a snake was captured and released.",
+        "output": " To showcase Linet Toto's achievements"
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-of-cloud-formations-behind-the-portland-headlight-is-artwork-not-real.png",
+        "ground_truth": "Artistic representation of the Portland Headlight using image editing tools.",
+        "output": " To show the storm"
+    },
+    {
+        "img_path": "dataset/processed_img/viral-photo-doesnt-show-subramanian-swamy-with-his-daughter-and-granddaughter.png",
+        "ground_truth": "To showcase Muslim women appreciative of Subramanian Swamy's work asking for a photograph with him",
+        "output": " To capture a moment"
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-the-keoratola-crematorium-with-an-i-love-keoratola-mahasashan-sign-board-is-fake.png",
+        "ground_truth": "To depict the Keoratola Crematorium",
+        "output": " To show support"
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-pictures-are-unrelated-to-the-drought-in-ethiopias-somali-region-in-2023-220d78b0ceda.png",
+        "ground_truth": "Document the effect of drought on livestock in the Somali region of Ethiopia ; Highlight the impact of drought in the Somali region during 2017",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-these-pictures-dont-depict-the-sudan-pipeline-transporting-oil-from-south-sudan.png",
+        "ground_truth": "One image was used to explain the Bhilai Steel Plant Blast in India. The other is used as a stock image",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/ai-generated-image-of-pm-modi-in-lavish-attire-circulating-as-real-event-photo.png",
+        "ground_truth": "To create imaginative depictions of politicians attending the Met Gala using Artificial Intelligence",
+        "output": " To capture a moment"
+    },
+    {
+        "img_path": "dataset/processed_img/pictures-of-malayalam-actress-anicka-vikhraman-allegedly-assaulted-by-her-ex-boyfriend-shared-with-a-love-jihad-narrative.png",
+        "ground_truth": "To seek justice and raise awareness about her situation",
+        "output": " To show her injury"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-related-to-the-disarmament-of-amhara-special-forces-in-2023-a7e0aac981a2.png",
+        "ground_truth": "The original image was used to showcase enemy armies that have surrendered.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-photos-are-not-of-damaged-watermelons-at-kalonzo-musyokas-yatta-farm-47efc87785b6.png",
+        "ground_truth": "Original authors uploaded these images as royalty free stock photos.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/old-photo-of-sunny-leones-kochi-rally-shared-as-sea-of-people-gathered-at-pm-modis-kochi-roadshow.png",
+        "ground_truth": "To depict the crowd that gathered during Sunny Leone's Kochi visit in August 2017",
+        "output": " Protest"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-ethiopian-soldiers-who-attacked-fano-in-april-2023-8c8d41a4d238.png",
+        "ground_truth": "Accompany an Amharic poem",
+        "output": " Military"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-tigray-forces-who-attacked-tselemt-people-in-april-2023-90f002da2f9d.png",
+        "ground_truth": "To celebrate the 45th, February 11th holiday in Adwa town by the Special Force",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/old-image-related-to-quran-recitation-event-from-turkey-shared-with-a-false-child-marriage-narrative.png",
+        "ground_truth": "Celebration of religious ceremony marking the beginning of learning the Quran",
+        "output": " To make people laugh"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-photo-of-pastor-paul-mackenzie-at-state-house-nairobi-is-not-authentic-78d5ef19874.png",
+        "ground_truth": "To report on the special thanksgiving service at State House",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-of-various-opinion-polls-predicting-congress-victory-in-the-upcoming-karnataka-assembly-elections-is-not-published-by-ndtv.png",
+        "ground_truth": "Not Applicable",
+        "output": " Elections"
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-does-not-show-the-wreckage-of-mh370-a-malaysian-airlines-plane-that-has-been-missing-since-2014.png",
+        "ground_truth": "The original image was shared to promote dive tourism and coral growth.",
+        "output": " To show plane"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-of-greta-thunberg-is-doctored-304e9f298ca6.png",
+        "ground_truth": "Greta Thunberg's climate activism",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-of-pastor-paul-mackenzie-in-an-odm-branded-t-shirt-has-been-doctored-68e1e7359ed3.png",
+        "ground_truth": "Nation Africa captured the image during an interview with Pastor Paul Mackenzie.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-photo-of-a-driver-on-a-muddy-road-not-from-south-sudan.png",
+        "ground_truth": "Used to illustrate a humorous situation of being stuck while writing a long thesis",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-does-not-show-wrestlers-ending-their-protest-against-wfi-president-brij-bhushan-singh-at-jantar-mantar.png",
+        "ground_truth": "Documenting the wrestlers' daily routine at the protest site",
+        "output": " To showcase the beauty of the location."
+    },
+    {
+        "img_path": "dataset/processed_img/ai-generated-images-passed-off-as-imran-khans-leaked-images-post-his-arrest.png",
+        "ground_truth": "Used to generate images based on text prompts",
+        "output": " To show her as a leader"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-photo-of-the-british-royal-family-has-been-doctored-to-include-kenyan-president-cef504b74eb8.png",
+        "ground_truth": "To capture the event of the coronation of King Charles III at the Buckingham Palace.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-eritrean-troops-close-to-the-border-with-sudan-59bdbabb97b1.png",
+        "ground_truth": "To document Eritrean troops arriving at the Zalambessa border for the reopening ceremony.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-ms-dhoni-touching-the-feet-of-sachin-tendulkar-is-an-edited-one.png",
+        "ground_truth": "Capture of a cheerful moment between Sachin Tendulkar and MS Dhoni before the match",
+        "output": " To capture a moment of sportsmanship"
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-does-not-show-pagoda-flowers-pagoda-flowers-will-bloom-every-year-in-the-period-from-mid-summer-and-autumn.png",
+        "ground_truth": "To create a 'Beautiful Fairy Tales' album",
+        "output": " To showcase beauty"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-animals-killed-by-oromo-army-in-north-shoa-amhara-in-may-2023-2a9addfdcf9f.png",
+        "ground_truth": "To report on a cattle injury from a traffic accident",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-a-drone-attack-on-ethiopias-north-shoa-amhara-region-8cf68c012705.png",
+        "ground_truth": "Document US drone activities",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-ethiopian-soldiers-entering-eritrea-e06e493064e3.png",
+        "ground_truth": "The original image was captured to show the Ethiopian National Defence Forces (ENDF) soldiers training in the field of Dabat.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/what-is-seen-in-this-photo-is-not-a-pile-of-hindu-skulls-kapalalas-these-are-bison-buffalo-skulls.png",
+        "ground_truth": "The original photo was taken to show a pile of bison skulls waiting to be ground for manufacturing carbon products.",
+        "output": " To showcase the pile of bones"
+    },
+    {
+        "img_path": "dataset/processed_img/an-altered-photo-shared-as-the-picture-of-a-new-pregnancy-test-cassette-showing-the-picture-of-the-father.png",
+        "ground_truth": "Showcase a result of a typical pregnancy test",
+        "output": " To show a pregnancy test"
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-images-shared-as-enormous-crowd-supporting-csk-ahead-of-ipl-2023-final.png",
+        "ground_truth": "To showcase participation in the Great Ethiopian Run ; To mark the 85th birthday celebrations of Thailand\u2019s former king, Bhumibol Adulyadej ; To show fans supporting the team UD Las Palmas",
+        "output": " Election"
+    },
+    {
+        "img_path": "dataset/processed_img/fake-these-images-of-elon-musk-with-robot-wives-are-ai-generated-6e182fe88089.png",
+        "ground_truth": "Creation of AI art and illustrations, not to be interpreted as real or factual content.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-yogi-adityanath-bowing-in-front-of-tipu-sultan-is-digitally-morphed.png",
+        "ground_truth": "To share the record of Yogi Adityanath paying his respects to Dr. B.R. Ambedkar during an inauguration event",
+        "output": " Religious event"
+    },
+    {
+        "img_path": "dataset/processed_img/the-woman-in-this-photo-is-a-victim-of-hate-crime-not-the-alleged-love-jihad.png",
+        "ground_truth": "Reportage of hate crime",
+        "output": " To showcase makeup"
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-old-photos-from-andhra-pradesh-and-west-bengal-shared-as-the-pictures-of-anti-modi-billboards-and-graffiti-in-rajasthan.png",
+        "ground_truth": "Image 1: To report anti-Modi billboard before his visit to Andhra Pradesh, Image 2: To report anti-Modi graffiti on the streets of Kolkata ahead of his visit",
+        "output": " Protest"
+    },
+    {
+        "img_path": "dataset/processed_img/a-digitally-edited-image-is-shared-alleging-that-a-hindu-temple-in-rajasthan-denies-entry-to-certain-sections.png",
+        "ground_truth": "Not Applicable",
+        "output": " To show building"
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-old-photo-shared-as-a-recent-picture-showing-coffins-of-us-soldiers-who-died-in-the-russia-ukraine-war.png",
+        "ground_truth": "To report the reality of a helicopter crash during a training mission in Kuwait in 2005",
+        "output": " Funeral"
+    },
+    {
+        "img_path": "dataset/processed_img/photo-of-a-man-transporting-a-mannequin-in-egypt-shared-as-the-visuals-of-a-muslim-carrying-a-dead-body-on-a-motorcycle.png",
+        "ground_truth": "The image was taken when a transport company executive was delivering a dismantled mannequin to a merchant store in Cairo.",
+        "output": " To capture a unique moment"
+    },
+    {
+        "img_path": "dataset/processed_img/a-photo-of-a-murdered-woman-with-a-trident-tattooed-on-her-forearm-is-shared-with-a-false-communal-angle.png",
+        "ground_truth": "To report on the murder case of Anjali Mintu Singh by her husband and brother in law",
+        "output": " Tattoo"
+    },
+    {
+        "img_path": "dataset/processed_img/ai-generated-image-falsely-portrayed-as-a-real-chinese-drone-toilet-unit.png",
+        "ground_truth": "To showcase the artist's AI generated futuristic idea of a drone toilet unit.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-old-photos-are-shared-as-police-attack-on-farmers-at-tractor-rally-protests-on-republic-day.png",
+        "ground_truth": "To depict a protest demanding justice for the victims of the 1984 anti-Sikh riots ; To report the act of Delhi police brutally thrashing a Gramin Sewa auto driver in 2019.",
+        "output": " To capture a moment"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-is-not-of-anti-finance-bill-protests-in-kenya-on-6-june-2023-54c69ef44900.png",
+        "ground_truth": "To capture a protest over claims of misappropriation of COVID-19 resources",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-of-pm-modi-waving-hands-while-standing-on-a-staircase-is-an-edited-one.png",
+        "ground_truth": "The original image was captured during his recent Karnataka election campaign in Tumkur in May 2023.",
+        "output": " To showcase the construction site"
+    },
+    {
+        "img_path": "dataset/processed_img/actress-katie-holmess-2018-photo-for-a-fashion-magazine-shared-as-a-picture-of-an-italian-singer-auctioning-her-brassiere-in-1955.png",
+        "ground_truth": "To depict iconic moments in history particularly relating to women\u2019s rights",
+        "output": " Protest"
+    },
+    {
+        "img_path": "dataset/processed_img/viral-image-shows-the-traditional-wedding-ceremony-of-indian-bowler-prasidh-krishna-not-nirmala-seetharamans-daughter.png",
+        "ground_truth": "Documenting a life event",
+        "output": " Wedding"
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-of-sandals-featuring-lord-ganesha-is-old-they-were-withdrawn-from-the-market-20-years-ago.png",
+        "ground_truth": "Design and marketing decision by American Eagle Outfitters",
+        "output": " To show off shoes"
+    },
+    {
+        "img_path": "dataset/processed_img/old-photo-from-italys-milan-city-shared-as-the-picture-of-a-melted-traffic-light-in-lucknow.png",
+        "ground_truth": "The source published this image to report an incident of a burning two-wheeler causing a traffic light to melt in Milan, Italy",
+        "output": " To showcase Linet Toto"
+    },
+    {
+        "img_path": "dataset/processed_img/2019-photo-from-telangana-shared-as-the-recent-picture-of-a-hoarding-of-cmr-shopping-mall-endorsing-love-jihad-in-karnataka.png",
+        "ground_truth": "The original image was used in 2019 as part of the CMR Telangana Group's Ramzan campaign.",
+        "output": " Advertisement"
+    },
+    {
+        "img_path": "dataset/processed_img/the-journalist-sitting-with-dawood-ibrahim-in-this-photo-is-not-supriya-shrinate.png",
+        "ground_truth": "Sheela Bhatt captured the image during an interview with Dawood Ibrahim",
+        "output": " To showcase her office"
+    },
+    {
+        "img_path": "dataset/processed_img/false-these-images-are-not-of-aliens-in-south-africa-184d139d5ded.png",
+        "ground_truth": "Mummified baboon discovery sparked internet stir, news outlets reported this discovery, and Alberto Giacometti\u2019s sculpture was part of his artistic creations.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-isnt-of-ethnic-amhara-evicted-from-guraferda-in-june-2023-1f24975c6bae.png",
+        "ground_truth": "To document displaced people walking along a road in Eastern Congo",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-a-drone-attack-in-north-shewa-in-2023-a0baf77c63c7.png",
+        "ground_truth": "Document the landing of the first Turkish military drone at Gecitkale Airport",
+        "output": " News"
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-old-photo-of-an-injured-woman-breastfeeding-her-child-falsely-linked-to-the-ongoing-violence-in-manipur.png",
+        "ground_truth": "Depicted a victim of domestic violence in Thailand.",
+        "output": " To show emotions"
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-pm-modi-staring-inappropriately-at-rihanna-is-morphed.png",
+        "ground_truth": "Rihanna's original image was captured as she was awarded the Humanitarian of the Year award by Harvard University. Narendra Modi's image appears to have been taken during his attendance at a traders\u2019 convention in New Delhi.",
+        "output": " To showcase the two people"
+    },
+    {
+        "img_path": "dataset/processed_img/a-cg-concept-video-is-falsely-shared-as-actual-visuals-of-a-chennai-signboard-showing-photos-of-traffic-violators.png",
+        "ground_truth": "To showcase a conceptual CGI video",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/fake-these-images-are-not-of-pope-francis-celebrating-pride-month-in-the-vatican-24c02f3a1d01.png",
+        "ground_truth": "The original poster's motivation is not stated in the article.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-helicopters-at-st-andrews-school-turi-1fc22b5fcfe8.png",
+        "ground_truth": "MD Helicopters posted the image to showcase the successful completion of The Great UK/Europe 500 Fly In event.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-ivan-khurs-a-russian-intelligence-ship-after-an-attack-e27e890ba30a.png",
+        "ground_truth": "This image was captured after a terrorist bomb exploded and killed 17 U.S. sailors and injured approximately 36 others during a refueling operation.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/an-unrelated-photo-is-being-shared-as-a-three-story-bus-ordered-to-be-used-in-ayodhya-darshan.png",
+        "ground_truth": "Representing a design concept",
+        "output": " To showcase the building"
+    },
+    {
+        "img_path": "dataset/processed_img/these-images-of-elon-musk-romancing-with-female-humanoid-robots-are-ai-generated.png",
+        "ground_truth": "Artistic representation and demonstration of AI technology.",
+        "output": " To showcase the relationship between the two characters"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-protesters-in-france-aboard-a-police-vehicle-f55aafdcf222.png",
+        "ground_truth": "To depict a scene from a movie.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/partly-false-this-image-is-not-of-a-pro-refugee-protest-in-france-in-2016-c346f34912d4.png",
+        "ground_truth": "The image was taken during a 'Refugees Welcome' solidarity march in Brussels.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-these-photos-of-nigerian-politician-peter-obi-with-french-president-emmanuel-macron-are-3a19bcb205f4.png",
+        "ground_truth": "The photos were taken to document a formal gathering between Nigerian President Bola Tinubu and French President Emmanuel Macron.",
+        "output": " To capture a moment"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-photo-of-hassan-joho-wearing-a-uda-branded-t-shirt-is-doctored-5f4f1feee17e.png",
+        "ground_truth": "The original photo was taken to capture a moment between Hassan Joho and Taufiq Balala viewing something on a phone.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-isnt-of-raila-odinga-stadium-in-homa-bay-county-6306a727417a.png",
+        "ground_truth": "The image originally captured the Al Janoub Stadium in Al Wakrah, a venue for the 2022 World Cup",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/the-elder-boy-in-this-photo-is-not-hope-the-nigerian-child-rescued-from-abandonment-seven-years-ago.png",
+        "ground_truth": "Anja Ringgren Loven shared the images to update about the children she rescued",
+        "output": " To raise awareness"
+    },
+    {
+        "img_path": "dataset/processed_img/ai-generated-image-shared-as-the-picture-of-a-monkey-flower-that-blooms-once-every-20-years-in-the-himalayas.png",
+        "ground_truth": "To showcase AI-generated painting skills",
+        "output": " To show cute animals"
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-a-satellite-draped-building-is-not-real.png",
+        "ground_truth": "Till Nowak created the photo as an artwork titled 'Dishes', which involved digitally augmenting the height of a real building and integrating 3D-rendered models of satellite dishes.",
+        "output": " To showcase building"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-does-this-photo-show-a-man-who-added-hiv-infected-blood-to-pepsi-products.png",
+        "ground_truth": "To depict the extradition of a terrorism suspect",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-depicting-the-day-and-night-regions-of-earth-is-a-digital-composite-not-real.png",
+        "ground_truth": "These images are generated by NASA for scientific use, to 'interpret complex data and communicate their understanding to others'",
+        "output": " To show rare picture"
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-featuring-congress-party-leaders-with-a-banner-that-reads-chor-group-meeting-is-digitally-manipulated.png",
+        "ground_truth": "To portray a Congress working committee meeting.",
+        "output": " Political"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-are-these-images-all-from-south-sudan.png",
+        "ground_truth": "To show the actual shot of a village near Islamkot in Tharparkar Desert of Sindh Pakistan",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/2015-photo-of-a-dalit-familys-naked-protest-shared-as-a-picture-depicting-the-persecution-of-a-christian-pastors-family-in-uttar-pradesh.png",
+        "ground_truth": "To report the protest of a Dalit family against police inaction in registering a complaint of robbery.",
+        "output": " To capture a moment"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-a-suspect-who-laced-pepsi-with-hiv-infected-blood-40b1d3089858.png",
+        "ground_truth": "To report the arrest of Aminu Ogwuche, a suspected bomb attack mastermind",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/a-2015-photo-of-a-flooded-chennai-airport-is-passed-off-as-that-of-ahmedabad-airport.png",
+        "ground_truth": "To depict the situation of the Chennai airport during the 2015 floods.",
+        "output": " To showcase the airport"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-was-this-picture-of-a-man-holding-a-gun-taken-in-bugolobi-kampala.png",
+        "ground_truth": "The image was originally taken during anti-government demonstrations in Kenya, where a Kenyan MP brandished his firearm at protesters.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-old-photos-shared-as-pictures-showing-the-recent-communal-violence-in-haryana.png",
+        "ground_truth": "Varied, including reporting of different violent incidents in the past",
+        "output": " Protest"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-purportedly-of-bill-gates-under-armed-watch-by-us-federal-marshals-is-manipulated.png",
+        "ground_truth": "The original video from which the image is derived sought to push for the repeal of the death penalty in the US.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-shah-rukh-khan-washing-his-feet-in-a-wash-basin-is-a-bts-still-of-the-movie-jab-harry-met-sejal.png",
+        "ground_truth": "To capture a scene for the film 'Jab Harry Met Sejal'.",
+        "output": " To capture a moment"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-is-this-a-photo-of-the-president-of-south-sudan-holding-an-illuminati-contract.png",
+        "ground_truth": "To show the event where the President of South Sudan received an invitation from Turkish envoy",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/the-woman-in-the-viral-photo-is-a-tamil-writer-not-madhya-pradesh-ias-officer.png",
+        "ground_truth": "To share a personal achievement of fulfilling her father's dream by taking him on a flight.",
+        "output": " To capture a moment"
+    },
+    {
+        "img_path": "dataset/processed_img/old-and-unrelated-images-are-shared-as-weapons-seized-from-6-clerics-in-bijnor-uttar-pradesh.png",
+        "ground_truth": "Bijnor police's intent was to share information about an arrest related to weapon smuggling. Other image origins vary.",
+        "output": " To showcase weapons"
+    },
+    {
+        "img_path": "dataset/processed_img/these-are-not-the-actual-photos-of-josephine-myrtle-corbin-a-woman-born-with-four-legs.png",
+        "ground_truth": "The original author of the image, Weekly World News tabloid, created it as part of a fictional news story",
+        "output": " To capture moment"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-picture-misidentified-as-juba-south-sudan.png",
+        "ground_truth": "The original authors captured and shared this image to illustrate the beauty and architectural allure of Johannesburg, South Africa.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-this-picture-depicts-bauchi-state-nigeria-not-yei-county-south-sudan.png",
+        "ground_truth": "To promote tourism in Bauchi State, Nigeria, particularly for mountaineers and hikers and highlight the region's scenic beauty.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/an-image-of-a-pedestrian-bridge-in-chinas-kunming-city-is-shared-as-that-from-gorakhpur-in-india.png",
+        "ground_truth": "To show a pedestrian bridge in Kunming City in China",
+        "output": " To capture the traffic"
+    },
+    {
+        "img_path": "dataset/processed_img/screengrabs-from-an-old-scripted-comedy-video-shared-as-yogi-adityanths-intimate-pictures-with-a-woman.png",
+        "ground_truth": "The original video was created for entertainment purposes, with a clear disclaimer stating that all the characters portrayed in this video are fictional.",
+        "output": " Election"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-longisa-in-bomet-kenya-94c61e38785c.png",
+        "ground_truth": "To capture the beauty of his native region (Kisoro, Uganda)",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/photo-showcasing-multi-transportation-modes-shared-on-social-media-is-digitally-edited.png",
+        "ground_truth": "The Instagram post houses two versions of the same photograph, one edited to include an airplane, and the other, original, without",
+        "output": " To showcase the bridge and the water"
+    },
+    {
+        "img_path": "dataset/processed_img/viral-image-is-an-artistic-representation-not-a-real-photograph-of-pragyan-rover-imprints-on-moon.png",
+        "ground_truth": "Krishanshu Garg created the piece as a digital artwork, not intending it to be mistaken as a factual representation.",
+        "output": " To showcase achievements of young people"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-isnt-of-a-zimbabwean-at-a-polling-booth-in-the-23-august-2023-elections-6f1a7e2246de.png",
+        "ground_truth": "The original author (NTV Kenya) captured the image to report on the event of a man who hurriedly left his home to vote during the 9 August 2022 general elections in Kenya.",
+        "output": " Election"
+    },
+    {
+        "img_path": "dataset/processed_img/ai-generated-image-shared-as-the-picture-of-a-railway-station-in-kerala-beautifully-decorated-with-flowers-for-onam.png",
+        "ground_truth": "Aneesh Chakkottil created the AI-generated image to depict a special Vande Bharat train that was expected to start on the occasion of Onam in Kerala.",
+        "output": " To showcase the train"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-isnt-of-the-royal-australian-navy-ships-ramming-an-illegal-immigrants-boat-7677a9eed4cc.png",
+        "ground_truth": "To depict two Japan Coast Guard patrol boats intercepting a small boat carrying activists approaching the disputed Uotsuri Islands.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-photo-of-a-handshake-between-nigerian-president-bola-tinubu-and-politician-peter-obi-f6e546b51e33.png",
+        "ground_truth": "To document Dangote\u2019s visit to Tinubu\u2019s home",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-depicting-crowd-watching-babar-azam-live-at-the-lal-chowk-is-digitally-morphed.png",
+        "ground_truth": "The Srinagar Police captured the image to depict local residents viewing the Chandrayaan-3 moon landing",
+        "output": " To show people watching tv"
+    },
+    {
+        "img_path": "dataset/processed_img/the-photo-of-a-crescent-earth-seen-from-the-moon-was-captured-by-the-apollo-17-spacecraft-not-the-orion.png",
+        "ground_truth": "The original photo was taken during the Apollo 17 mission with the intention to record the Earth view from the lunar orbit.",
+        "output": " To show the earth"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-this-is-not-an-image-of-a-bridge-in-juba-south-sudan.png",
+        "ground_truth": "To depict a popular spot for photographers",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-whatsapp-picture-with-nigerian-airtel-number-cant-kill.png",
+        "ground_truth": "The original image was used by the Ng Daily News to report an incident of gang violence in Lagos.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-joe-biden-and-narendra-modi-sitting-in-front-of-a-mahabharatha-wall-painting-is-edited.png",
+        "ground_truth": "The original photo was taken during a productive meeting between Narendra Modi and Joe Biden. It was to discuss numerous topics which will further economic and people-to-people linkages between India and USA.",
+        "output": " Political"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-isnt-of-kenyan-opposition-leader-raila-odinga-meeting-uk-minister-james-heappey-97d34b7e0b4.png",
+        "ground_truth": "To share Raila Odinga's engagement with UK's minister for the armed forces, James Heappey, on matters regarding security and their potential collaboration",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/edited-image-shared-as-rohit-sharmas-poster-exhibited-in-indias-new-parliament-and-at-the-g20-summit.png",
+        "ground_truth": "To showcase a still of Sunil Gavaskar and Krishnamachari Srikkanth in the Chepauk Stadium Museum",
+        "output": " To capture moment"
+    },
+    {
+        "img_path": "dataset/processed_img/partly-false-this-photo-is-not-of-ugandas-first-lady-dcedc9aa6955.png",
+        "ground_truth": "The original image was captured by photojournalist Sumy Sadurni, presumably with the intent to document the work and life of Ugandan activist Stella Nyanzi.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/photos-of-two-different-persons-with-narendra-modi-are-falsely-shared-as-the-same-person-featured-in-both.png",
+        "ground_truth": "To document Prime Minister Narendra Modi's interaction with craftsmen during the inauguration of the Yashobhoomi Convention Centre",
+        "output": " For advertisement"
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-with-trees-depicting-the-face-of-pm-modi-is-ai-generated.png",
+        "ground_truth": "Madhav Kohli created it as an artificial intelligence experiment",
+        "output": " To showcase beautiful beach scenery"
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-old-video-clips-and-pictures-falsely-shared-alleging-the-demise-of-sdm-jyoti-mauryas-husband.png",
+        "ground_truth": "The video was originally posted to demonstrate the organ transplantation process at MGM Healthcare Hospital and the photo was taken to showcase the situation at a hospital during the COVID-19 pandemic.",
+        "output": " To show medical emergency"
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-of-a-toddler-standing-amidst-an-explosion-is-ai-generated.png",
+        "ground_truth": "To generate an image demonstrating the capability of the generative AI software 'Stable Diffusion'",
+        "output": " To showcase Linet Toto"
+    },
+    {
+        "img_path": "dataset/processed_img/the-israeli-couple-in-this-selfie-picture-were-not-killed-by-hamas-militants-during-the-nova-music-festival-attack.png",
+        "ground_truth": "To share their experience and survival from Nova Trance Music Festival attack",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/an-old-photo-of-israeli-prime-minister-benjamin-netanyahu-with-his-son-is-falsely-linked-to-the-ongoing-conflict.png",
+        "ground_truth": "The image was originally captured to represent a personal milestone for the Netanyahu family, as son Avner began his mandatory army service.",
+        "output": " To show support"
+    },
+    {
+        "img_path": "dataset/processed_img/a-2022-photo-is-falsely-portrayed-as-the-recent-image-of-aap-mp-sanjay-singhs-arrest.png",
+        "ground_truth": "To document the detention of Sanjay Singh while protesting outside the CBI headquarters in Delhi against CBI questioning of then Deputy Chief Minister of Delhi, Manish Sisodia",
+        "output": " Election"
+    },
+    {
+        "img_path": "dataset/processed_img/a-photo-of-a-protest-by-israelis-against-netanyahus-proposed-legal-reforms-in-early-2023-is-being-shared-with-misleading-claim.png",
+        "ground_truth": "The actual protest was against proposed legal reforms by Prime Minister Benjamin Netanyahu's government.",
+        "output": " Protest"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-is-this-image-of-a-hippo-and-a-shark-on-the-road-during-kampalas-recent-floods-legitimate.png",
+        "ground_truth": "The original photo was captured by Daily Monitor to highlight the issues of flooding in Kampala.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/unrelated-old-photos-of-jaivardhan-singh-shared-now-in-the-context-of-kamal-naths-recent-remarks.png",
+        "ground_truth": "Jaivardhan Singh originally shared the photo along with a message against inflation and government oppression.",
+        "output": " To showcase Linet Toto"
+    },
+    {
+        "img_path": "dataset/processed_img/hoax-this-facebook-post-using-gospel-musician-karangu-murayas-image-and-claiming-to-issue-loans-cb8e8923c7dc.png",
+        "ground_truth": "Karangu Muraya's original image was used to market an event he was set to attend in Nanyuki, Kenya.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/photos-of-a-girl-who-survived-a-bomb-attack-in-syria-in-2016-are-falsely-passed-off-as-a-palestinian-girl.png",
+        "ground_truth": "To document a rescue operation after an air strike attack in Aleppo, Syria",
+        "output": " Election"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-picture-of-man-with-burning-candles-on-head-wasnt-taken-in-juba.png",
+        "ground_truth": "The image was originally posted to illustrate the Church's actions of trying to 'deliver' a man from homosexuality",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-vehicle-queues-in-argentina-ae8c5dd19134.png",
+        "ground_truth": "To depict a fuel crisis affecting parts of North Rift and Western Kenya",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/morphed-pictures-shared-as-the-visuals-of-rashid-khan-waving-the-indian-flag-after-afghanistan-defeated-pakistan-in-cwc-2023.png",
+        "ground_truth": "The original images captured Rashid Khan's celebration of Afghanistan's victory over Pakistan in the ICC World Cup 2023",
+        "output": " Celebration"
+    },
+    {
+        "img_path": "dataset/processed_img/this-image-of-footballer-lionel-messi-depicting-him-as-holding-the-israeli-flag-is-edited.png",
+        "ground_truth": "To promote Icons Memorabilia, an online store specializing in autographed football memorabilia from renowned players",
+        "output": " To show support for israel"
+    },
+    {
+        "img_path": "dataset/processed_img/photos-generated-using-ai-tools-are-falsely-shared-as-photos-of-ayodhya-railway-station.png",
+        "ground_truth": "To generate an AI image",
+        "output": " To showcase the new railway station"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-this-photo-is-not-of-the-serena-hotel-in-kenya.png",
+        "ground_truth": "The photo was a part of a proposed project called Fluidity 2.0, aiming to illustrate a potential high-rise hotel and office hybrid tower in the Swiss Alps.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-does-not-show-an-old-image-of-tamil-nadu-minister-e-v-velu-pulling-the-rickshaw-of-late-karunanidhi.png",
+        "ground_truth": "To capture a moment during an election campaign",
+        "output": " To capture a moment"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-is-this-a-picture-of-a-road-washed-by-rain-in-south-sudan.png",
+        "ground_truth": "To reveal the real condition of the road between Garissa and Modogashe in Kenya after a rainfall",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-photo-doesnt-show-floods-in-nairobi-1f1660694343.png",
+        "ground_truth": "The original photo was captured to depict the real situations of heavy rainfall in Kibarani, Mombasa County.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-shows-congress-mps-protesting-in-black-attire-against-gst-price-rise-and-unemployment-not-ayodhya-ram-temple.png",
+        "ground_truth": "To document the nationwide protest against price rise, unemployment, and GST rate hike on essential items led by Congress MPs",
+        "output": " Protest"
+    },
+    {
+        "img_path": "dataset/processed_img/this-photo-of-glenn-maxwell-touching-the-feet-of-sachin-tendulkar-is-morphed.png",
+        "ground_truth": "To depict Sachin Tendulkar's interaction with an Afghan cricketer during the ICC Men's Cricket World Cup 2023",
+        "output": " Cricket match"
+    },
+    {
+        "img_path": "dataset/processed_img/two-unrelated-old-images-are-being-shared-claiming-that-people-in-gaza-burnt-a-donkey-painted-as-the-israeli-flag.png",
+        "ground_truth": "To document a demonstration supporting the Palestinian bid for statehood recognition at the UN  ; To document the aftermath of an Israeli airstrike that resulted in the animal's death",
+        "output": " Protest"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-this-photo-showing-pupils-doing-exams-in-an-open-space-isnt-from-uganda.png",
+        "ground_truth": "Showcasing the school's conditions and necessity to handle increased student numbers",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-kenyas-nairobi-river-7472a7304ec2.png",
+        "ground_truth": "Original author's motivation was to bring attention to the pollution problem in the Citarum River in Indonesia.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/missing-context-this-image-of-a-woman-walking-down-the-staircase-of-a-destroyed-building-is-old-412ad1ba1077.png",
+        "ground_truth": "To depict a poignant moment when a mother revisited her former home amidst destruction and found her son's toy car.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-of-daniel-bekele-posing-with-fano-militia-is-doctored-58e9fba2754c.png",
+        "ground_truth": "The original source posted the image featuring Zemene Kassie, a Fano leader, fighting against the government forces",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/visuals-of-two-different-individuals-shared-as-before-and-after-images-of-a-man-who-sustained-burns-while-rescuing-his-girlfriend.png",
+        "ground_truth": "The original photo was a regular social media post with no dramatic motivation",
+        "output": " To show girls' reality in this generation"
+    },
+    {
+        "img_path": "dataset/processed_img/an-edited-image-is-being-shared-to-falsely-claim-that-rohit-sharmas-catch-in-the-world-cup-final-was-not-clean.png",
+        "ground_truth": "Documentation of the Cricket World Cup final",
+        "output": " Cricket"
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-is-not-of-ugandas-government-spokesperson-attending-nyege-nyege-festival-b34b52e75ffe.png",
+        "ground_truth": "Image captured during a visit to the Geno family farm in the Tororo District",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/false-this-image-was-not-captured-at-jkia-62d91397ac6c.png",
+        "ground_truth": "To show 'The challenges of airport luggage and the suitcase hassle.'",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-image-of-ethiopian-orthodox-tewahedo-church-archbishop-abune-ermias-is-doctored-3a1dad21048c.png",
+        "ground_truth": "The original image was of Field Marshal Birhanu Jula, the Ethiopian army chief of staff, for presumably news reporting purposes.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/partly-false-this-image-of-damaged-kenyas-sgr-corridor-is-not-from-2023-b383ceb2915b.png",
+        "ground_truth": "To document the damage caused by heavy floods to a section of the SGR in Makueni County in 2016",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/morphed-photo-shared-as-indian-cricket-team-captain-rohit-sharma-touching-pm-narendra-modis-feet.png",
+        "ground_truth": "To capture a moment from the Cricket World Cup final 2023",
+        "output": " Election"
+    },
+    {
+        "img_path": "dataset/processed_img/seema-haiders-ex-husband-is-still-alive-unrelated-old-videos-and-images-shared-as-the-funeral-procession-visuals-of-seema-haiders-ex-husband.png",
+        "ground_truth": "Report on a funeral of a Palestinian youth ; Report on the funeral of a retired Indian army soldier",
+        "output": " Funeral"
+    },
+    {
+        "img_path": "dataset/processed_img/ai-generated-image-shared-as-the-picture-of-rescue-team-celebrating-following-the-uttarakhand-tunnel-rescue-operation.png",
+        "ground_truth": "Instagram handle 'theexclusiveminds' created the image through AI to celebrate the Uttarakhand tunnel rescue operation.",
+        "output": " To capture moment"
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-this-photo-of-muddy-shoes-wasnt-originally-taken-in-juba.png",
+        "ground_truth": "To humorously depict the weather conditions in Kenya",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/fact-check-this-picture-isnt-of-an-olympic-stadium-design-to-be-built-in-south-sudan.png",
+        "ground_truth": "Reporting on the nearly completed Olympic Stadium in Cairo, Egypt",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/photo-misrepresented-as-pm-modi-ignoring-greetings-from-president-vice-president-and-lok-sabha-speaker.png",
+        "ground_truth": "Documentation of the tribute event for Dr. B.R. Ambedkar at the New Parliament House",
+        "output": " Political event"
+    },
+    {
+        "img_path": "dataset/processed_img/altered-this-is-not-an-image-of-a-stabex-filling-station-affixed-on-a-rooftop-341b472d3f80.png",
+        "ground_truth": "To depict the unique architecture in the Yuzhong District of Chongqing City, including filling stations on various floors.",
+        "output": "Images was not downloaded previously..."
+    },
+    {
+        "img_path": "dataset/processed_img/two-unrelated-images-are-being-shared-alleging-that-virat-kohli-dined-on-beef-at-gordan-ramsays-restaurant.png",
+        "ground_truth": "American couple shared their dining experience. Virat Kohli shared the family photo from Dubai for personal reasons.",
+        "output": " To eat"
+    },
+    {
+        "img_path": "dataset/processed_img/no-lakhs-of-shiva-lingas-did-not-emerge-from-the-shalmala-river-at-the-sahasralinga-pilgrimage-site-in-karnataka.png",
+        "ground_truth": "To showcase the Sahasralinga pilgrimage site where a thousand Shiva Lingas are carved on the rocks along the banks of the Shalmala River",
+        "output": " To showcase Linet Toto"
+    },
+    {
+        "img_path": "dataset/processed_img/image-of-rajasthan-cm-bhajan-lal-sharma-boarding-a-bus-is-being-shared-with-a-misleading-assertion.png",
+        "ground_truth": "Documenting Bhajan Lal Sharma's participation in a protest",
+        "output": " To show people on bus"
+    },
+    {
+        "img_path": "dataset/processed_img/image-shared-as-the-last-tree-in-rocinha-brazil-is-a-digitally-created-one.png",
+        "ground_truth": "Luiz Behring created the image to address the urbanization process in Brazil",
+        "output": " To show density"
+    },
+    {
+        "img_path": "dataset/processed_img/review-delhi-hc-rules-that-reckless-defamatory-humiliating-and-unsubstantiated-allegations-by-one-spouse-tarnishing-the-image-of-the-other-are-acts-of-extreme-cruelty.png",
+        "ground_truth": "Providing legal judgements",
+        "output": " To document the renaming of the road"
+    }
+]
