@@ -3,7 +3,8 @@ from torch.utils.data import DataLoader
 from transformers import ViTImageProcessor, ViTForImageClassification, TrainingArguments, Trainer, pipeline
 import torch
 from PIL import Image
-from datasets import load_metric, Dataset
+from datasets import Dataset
+from evaluate import load
 import argparse
 import os
 import sys 
@@ -22,12 +23,21 @@ def compute_metrics(p):
     return metric.compute(predictions=np.argmax(p.predictions, axis=1), references=p.label_ids)
 
 def transform(example_batch):
-    '''
-    Take a list of PIL images and turn them to pixel values
-    '''
-    inputs = processor([x for x in example_batch['image']], return_tensors='pt')
-    inputs['labels'] = example_batch['labels']
+    images = []
+    labels = []
+    for path, label in zip(example_batch['image path'], example_batch['labels']):
+        if os.path.exists(path):
+            image = load_image({'image_file_path': path})['image']
+            images.append(image)
+            labels.append(label)
+        else:
+            # print(f"File not found: {path}")
+            pass
+
+    inputs = processor(images, return_tensors='pt')
+    inputs['labels'] = torch.tensor([1 if label == 'manipulated' else 0 for label in labels], dtype=torch.long)
     return inputs
+
 
 
 def collate_fn(batch):
@@ -35,7 +45,8 @@ def collate_fn(batch):
 
     return {
         'pixel_values': torch.stack([x['pixel_values'] for x in batch]),
-        'labels': torch.tensor([label_map[x['labels']] for x in batch])
+        # 'labels': torch.tensor([label_map[x['labels']] for x in batch])
+        'labels': torch.stack([x['labels'] for x in batch])
     }
 
 
@@ -98,7 +109,7 @@ if __name__=='__main__':
                         help='Folder to save and load the trained model') 
     parser.add_argument('--json_path', type=str, default='dataset/manipulation_detection_test.json',
                         help='File to save the model predictions') 
-    parser.add_argument('--epochs', type=int, default=10,
+    parser.add_argument('--epochs', type=int, default=40,
                         help='Number of training epochs') 
     parser.add_argument('--learning_rate', type=int, default=2e-4,
                         help='Learning rate for training') 
@@ -110,6 +121,10 @@ if __name__=='__main__':
     train = load_json('dataset/train.json')
     val = load_json('dataset/val.json')
     test = load_json('dataset/test.json')
+    # 过滤掉存在的项
+    train = [item for item in train if os.path.isfile(item['image path'])]
+    val = [item for item in val if os.path.isfile(item['image path'])]
+    test = [item for item in test if os.path.isfile(item['image path'])]
 
     #Update image path
     train_input = [im['image path'] for im in train]
@@ -123,6 +138,7 @@ if __name__=='__main__':
     train_dataset = Dataset.from_dict({'image path': train_input,'labels': train_target})
     val_dataset = Dataset.from_dict({'image path': val_input,'labels': val_target})
     test_dataset = Dataset.from_dict({'image path': test_input,'labels': test_target})
+    # 过滤掉 image path 不存在的项
 
 
     # Preprocessing
@@ -135,7 +151,7 @@ if __name__=='__main__':
     #Load model
     if args.train:
         #Load metrics
-        metric = load_metric("accuracy")
+        metric = load("accuracy")
         train_manipulation_detector(prepared_train_dataset,prepared_val_dataset,
                                     args.model_name, args.model_folder,
                                     args.epochs, args.learning_rate)
@@ -146,16 +162,19 @@ if __name__=='__main__':
 
     # #Load existing model
     model = ViTForImageClassification.from_pretrained(args.model_folder)
+    model = ViTForImageClassification.from_pretrained(args.model_folder).to(device)
     pipe = pipeline('image-classification',model=args.model_folder)
     #Load test set and make predictions
     test_loader = DataLoader(prepared_test_dataset, batch_size=32)
     test_predictions = []
     with torch.no_grad():
         for batch in test_loader:
-            pixel_values = batch['pixel_values']
+            # pixel_values = batch['pixel_values']
+            pixel_values = batch['pixel_values'].to(device)
             outputs = model(pixel_values)
             preds = torch.argmax(outputs.logits, dim=1)
             test_predictions.extend(preds.tolist())
     test_predictions = ['non-manipulated' if p==0 else 'manipulated' for p in test_predictions]
     results = [{'image path':test[im]['image path'], 'manipulation detection':test_predictions[im]} for im in range(len(test))]
+    print(f"Processed {len(results)} images.")
     save_result(results,args.json_path)

@@ -1,6 +1,7 @@
 import argparse
 import os
 import sys 
+import re
 sys.path.insert(1, os.path.join(sys.path[0], '..'))
 from utils import *
 from dataset_collection.scrape_utils import *
@@ -27,9 +28,10 @@ if __name__=='__main__':
     if args.download_image:
         #Load data
         subset_evidence = [ev['image url']  for ev in evidence if ev['image path'] in manipulation_detection_test_image_paths]
-        subset_evidence = [url if url else '' for url in subset_evidence]
+        subset_evidence = [re.findall(r"https?://[^\s',]+", url)[0] if url else '' for url in subset_evidence]
         evidence_index = [evidence.index(ev) for ev in evidence if ev['image path'] in manipulation_detection_test_image_paths]
-        image_to_download = [u.split(';')[0] for u in subset_evidence] #Take for each evidence the first version of the image
+        # image_to_download = [u.split(';')[0] for u in subset_evidence] #Take for each evidence the first version of the image
+        image_to_download = subset_evidence
         for i in range(len(subset_evidence)):
             download_image(image_to_download[i],'dataset/manipulated_original_img/'+str(evidence_index[i]))
     
