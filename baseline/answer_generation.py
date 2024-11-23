@@ -7,6 +7,7 @@ import sys
 sys.path.insert(1, os.path.join(sys.path[0], '..'))
 from baseline.generation_utils import * 
 from baseline.llm_prompting import *
+from openai import OpenAI
 
 
 def run_model(image_paths, 
@@ -96,24 +97,35 @@ def run_model(image_paths,
                 prompt = assembler(question, modality = 'vision', demonstrations=demonstrations[i])
             else:
                 prompt = assembler(question, modality = 'vision')
+
+        # Modality evidence -> only text evidence
         if modality=='evidence':
             if len(evidence_idx[i])==0:
                 print('No evidence')
                 output = ''
             else: 
-                if model=='gpt4':
-                    output = gpt4_vision_prompting(prompt,client,image_paths[i],map_manipulated, modality=modality, 
+                if model == 'gpt4':
+                    output = gpt4_vision_prompting(prompt,client, None, {}, modality=modality, 
                                                 temperature=temperature, 
-                                                max_tokens=max_tokens) 
-                elif model=='llava':
-                    if os.path.exists(image_paths[i]):
-                        output = llava_prompting(prompt,image_paths[i],pipe,map_manipulated,temperature,max_tokens)
-                elif model=='lama':
+                                                max_tokens=max_tokens)
+                elif model=='llama':
                     output = llama_prompting(prompt,pipe,tokenizer,temperature, max_tokens)
                 
                 else:
                     print('Error : wrong model provided')
                     break
+
+        # Modality vision -> only image
+        elif modality == 'vision':
+            if model=='gpt4':
+                    output = gpt4_vision_prompting(prompt,client,image_paths[i],map_manipulated, modality=modality, 
+                                                temperature=temperature, 
+                                                max_tokens=max_tokens) 
+            elif model=='llava':
+                if os.path.exists(image_paths[i]):
+                    output = llava_prompting(prompt,image_paths[i],pipe,map_manipulated,temperature,max_tokens)
+       
+        # Modality multimodal -> text evidence + image
         else:
             if model=='gpt4':
                 output = gpt4_vision_prompting(prompt, 

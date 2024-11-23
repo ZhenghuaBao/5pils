@@ -8,14 +8,17 @@ from baseline.generation_utils import *
 from baseline.llm_prompting import *
 
 
+# Export your OpenAI API in your environment for later use
+
+
 if __name__=='__main__':
     parser = argparse.ArgumentParser(description='Generate 5 pillars answers with LLMs.')
-    parser.add_argument('--openai_api_key', type=str, default =' ', #Insert your key here
-                        help='The environment variable name for your secret key to access Azure openAI services.')
-    parser.add_argument('--api_version', type=str, default ='2023-10-01-preview',
-                        help='The version of the Azure OpenAI services to use.')
-    parser.add_argument('--endpoint', type=str, default =' ', #Insert your endpoint here
-                        help='The environment variable name for the endpoint to access Azure openAI services.')
+    #parser.add_argument('--openai_api_key', type=str, default =' ', #Insert your key here
+                        #help='The environment variable name for your secret key to access Azure openAI services.')
+    #parser.add_argument('--api_version', type=str, default ='2023-10-01-preview',
+                        #help='The version of the Azure OpenAI services to use.')
+    #parser.add_argument('--endpoint', type=str, default =' ', #Insert your endpoint here
+                        #help='The environment variable name for the endpoint to access Azure openAI services.')
     parser.add_argument('--map_manipulated_original', type=str, default='dataset/map_manipulated_original.json',
                         help='Path to the file that maps manipulated images to their identified original version.')
     parser.add_argument('--results_file', type=str, default='output/results.json',
@@ -36,14 +39,10 @@ if __name__=='__main__':
                         help='The waiting time between two answer generation.')
 
     args = parser.parse_args()
-    # if args.model=='gpt4':
-    #     client = AzureOpenAI(
-    #     api_key=os.getenv(args.openai_api_key),  
-    #     api_version=args.api_version,
-    #     azure_endpoint = os.getenv(args.endpoint)
-    #     )
-    # else:
-    client = None
+    if args.model=='gpt4':
+        client = OpenAI()
+    else:
+        client = None
 
     if 'output' not in os.listdir():
         os.mkdir('output/')
