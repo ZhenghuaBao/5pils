@@ -141,3 +141,16 @@ sketch*
 # text and image files
 *.txt
 *.png
+
+# results
+*.json
+
+# ViT
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.out.*
+
+# macOS
+*.DS_Store
