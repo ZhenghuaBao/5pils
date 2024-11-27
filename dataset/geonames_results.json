@@ -33030,5 +33030,1514 @@
             -36.0,
             -60.0
         ]
+    },
+    {
+        "query": "Fukuoka Prefecture",
+        "geonameId": 1863967,
+        "name": "Fukuoka",
+        "toponymName": "Fukuoka",
+        "countryName": "Japan",
+        "coordinates": [
+            33.6,
+            130.41667
+        ],
+        "fcl": "P",
+        "fclName": "city, village,...",
+        "hierarchy": "Earth;Asia;Japan;Fukuoka;Fukuoka City;Hakata;Fukuoka",
+        "adminName1": "Fukuoka"
+    },
+    {
+        "geonameId": 2346794,
+        "name": "Borno State",
+        "toponymName": "Borno State",
+        "countryName": "Nigeria",
+        "longitude": "13",
+        "latitude": "11.5",
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": [
+            "Earth",
+            "Africa",
+            "Nigeria",
+            "Borno State"
+        ],
+        "adminName1": "Borno State",
+        "query": "Borno State",
+        "coordinates": [
+            11.5,
+            13.0
+        ]
+    },
+    {
+        "geonameId": 51537,
+        "name": "Somalia",
+        "toponymName": "Somalia",
+        "countryName": "Somalia",
+        "longitude": "48",
+        "latitude": "6",
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": [
+            "Earth",
+            "Africa",
+            "Somalia"
+        ],
+        "adminName1": "",
+        "query": "Somalia",
+        "coordinates": [
+            6.0,
+            48.0
+        ]
+    },
+    {
+        "geonameId": 444186,
+        "name": "Somali",
+        "toponymName": "Somali Region",
+        "countryName": "Ethiopia",
+        "longitude": "44",
+        "latitude": "7",
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": [
+            "Earth",
+            "Africa",
+            "Ethiopia",
+            "Somali"
+        ],
+        "adminName1": "Somali",
+        "query": "Somalia",
+        "coordinates": [
+            7.0,
+            44.0
+        ]
+    },
+    {
+        "geonameId": 1264542,
+        "name": "Madhya Pradesh",
+        "toponymName": "Madhya Pradesh",
+        "countryName": "India",
+        "longitude": "78.5",
+        "latitude": "23.5",
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": [
+            "Earth",
+            "Asia",
+            "India",
+            "Madhya Pradesh"
+        ],
+        "adminName1": "Madhya Pradesh",
+        "query": "Madhya Pradesh",
+        "coordinates": [
+            23.5,
+            78.5
+        ]
+    },
+    {
+        "geonameId": 6942135,
+        "name": "Panmunjom",
+        "toponymName": "Panmunjom",
+        "countryName": "South Korea",
+        "longitude": "126.7084",
+        "latitude": "37.93991",
+        "fcl": "P",
+        "fclName": "city, village,...",
+        "hierarchy": [
+            "Earth",
+            "Asia",
+            "South Korea",
+            "Gyeonggi-do",
+            "Paju-si",
+            "Gunnae-myeon",
+            "Panmunjom"
+        ],
+        "adminName1": "Gyeonggi-do",
+        "query": "Panmunjom",
+        "coordinates": [
+            37.93991,
+            126.7084
+        ]
+    },
+    {
+        "geonameId": 1278253,
+        "name": "Assam",
+        "toponymName": "Assam",
+        "countryName": "India",
+        "longitude": "93",
+        "latitude": "26",
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": [
+            "Earth",
+            "Asia",
+            "India",
+            "Assam"
+        ],
+        "adminName1": "Assam",
+        "query": "Assam",
+        "coordinates": [
+            26.0,
+            93.0
+        ]
+    },
+    {
+        "geonameId": 6949159,
+        "name": "Karnavati Club",
+        "toponymName": "Karnavati Club",
+        "countryName": "India",
+        "longitude": "72.50459",
+        "latitude": "23.01936",
+        "fcl": "S",
+        "fclName": "spot, building, farm",
+        "hierarchy": [
+            "Earth",
+            "Asia",
+            "India",
+            "Gujarat",
+            "Ahmad\u0101b\u0101d District",
+            "Sabarmati",
+            "Karnavati Club"
+        ],
+        "adminName1": "Gujarat",
+        "query": "Karnavati",
+        "coordinates": [
+            23.01936,
+            72.50459
+        ]
+    },
+    {
+        "geonameId": 197184,
+        "name": "Gitugi Sub-Location",
+        "toponymName": "Gitugi Sub-Location",
+        "countryName": "Kenya",
+        "longitude": "37.01667",
+        "latitude": "-0.65",
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": [
+            "Earth",
+            "Africa",
+            "Kenya",
+            "Murang'A",
+            "Gitugi Sub-Location"
+        ],
+        "adminName1": "Murang'A",
+        "query": "Gitugi",
+        "coordinates": [
+            -0.65,
+            37.01667
+        ]
+    },
+    {
+        "geonameId": 197233,
+        "name": "Gitugi",
+        "toponymName": "Gitugi",
+        "countryName": "Kenya",
+        "longitude": "36.85293",
+        "latitude": "-0.51692",
+        "fcl": "P",
+        "fclName": "city, village,...",
+        "hierarchy": [
+            "Earth",
+            "Africa",
+            "Kenya",
+            "Nyeri County",
+            "Gitugi"
+        ],
+        "adminName1": "Nyeri County",
+        "query": "Gitugi",
+        "coordinates": [
+            -0.51692,
+            36.85293
+        ]
+    },
+    {
+        "geonameId": 11835318,
+        "name": "Gitugi",
+        "toponymName": "Gitugi",
+        "countryName": "Kenya",
+        "longitude": "37.02382",
+        "latitude": "-0.66313",
+        "fcl": "P",
+        "fclName": "city, village,...",
+        "hierarchy": [
+            "Earth",
+            "Africa",
+            "Kenya",
+            "Murang'A",
+            "Gitugi"
+        ],
+        "adminName1": "Murang'A",
+        "query": "Gitugi",
+        "coordinates": [
+            -0.66313,
+            37.02382
+        ]
+    },
+    {
+        "geonameId": 1567570,
+        "name": "South China Sea",
+        "toponymName": "South China Sea",
+        "countryName": "Vietnam",
+        "longitude": "115",
+        "latitude": "15",
+        "fcl": "H",
+        "fclName": "stream, lake, ...",
+        "hierarchy": [
+            "Earth",
+            "Asia",
+            "Vietnam",
+            "South China Sea"
+        ],
+        "adminName1": "",
+        "query": "South China Sea",
+        "coordinates": [
+            15.0,
+            115.0
+        ]
+    },
+    {
+        "geonameId": 12218168,
+        "name": "South China Sea",
+        "toponymName": "South China Sea",
+        "countryName": null,
+        "longitude": "115.63737",
+        "latitude": "14.64735",
+        "fcl": "H",
+        "fclName": "stream, lake, ...",
+        "hierarchy": [
+            "Earth",
+            "South China Sea"
+        ],
+        "adminName1": "",
+        "query": "South China Sea",
+        "coordinates": [
+            14.64735,
+            115.63737
+        ]
+    },
+    {
+        "geonameId": 1675151,
+        "name": "Hsinchu",
+        "toponymName": "Hsinchu",
+        "countryName": "Taiwan",
+        "longitude": "120.96861",
+        "latitude": "24.80361",
+        "fcl": "P",
+        "fclName": "city, village,...",
+        "hierarchy": [
+            "Earth",
+            "Asia",
+            "Taiwan",
+            "Taiwan",
+            "Hsinchu City",
+            "Hsinchu"
+        ],
+        "adminName1": "Taiwan",
+        "query": "Hsinchu",
+        "coordinates": [
+            24.80361,
+            120.96861
+        ]
+    },
+    {
+        "geonameId": 1675103,
+        "name": "Hsinchu City",
+        "toponymName": "Hsinchu",
+        "countryName": "Taiwan",
+        "longitude": "120.96722",
+        "latitude": "24.81472",
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": [
+            "Earth",
+            "Asia",
+            "Taiwan",
+            "Taiwan",
+            "Hsinchu City"
+        ],
+        "adminName1": "Taiwan",
+        "query": "Hsinchu",
+        "coordinates": [
+            24.81472,
+            120.96722
+        ]
+    },
+    {
+        "geonameId": 1675107,
+        "name": "Hsinchu County",
+        "toponymName": "Hsinchu County",
+        "countryName": "Taiwan",
+        "longitude": "121.16111",
+        "latitude": "24.67416",
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": [
+            "Earth",
+            "Asia",
+            "Taiwan",
+            "Taiwan",
+            "Hsinchu County"
+        ],
+        "adminName1": "Taiwan",
+        "query": "Hsinchu",
+        "coordinates": [
+            24.67416,
+            121.16111
+        ]
+    },
+    {
+        "geonameId": 6600395,
+        "name": "Hsinchu AB",
+        "toponymName": "Hsinchu Air Base",
+        "countryName": "Taiwan",
+        "longitude": "120.94111",
+        "latitude": "24.82444",
+        "fcl": "S",
+        "fclName": "spot, building, farm",
+        "hierarchy": [
+            "Earth",
+            "Asia",
+            "Taiwan",
+            "Taiwan",
+            "Hsinchu City",
+            "North",
+            "Hsinchu AB"
+        ],
+        "adminName1": "Taiwan",
+        "query": "Hsinchu",
+        "coordinates": [
+            24.82444,
+            120.94111
+        ]
+    },
+    {
+        "geonameId": 1167710,
+        "name": "Punjab",
+        "toponymName": "Punjab Province",
+        "countryName": "Pakistan",
+        "longitude": "72.31667",
+        "latitude": "30.85",
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": [
+            "Earth",
+            "Asia",
+            "Pakistan",
+            "Punjab"
+        ],
+        "adminName1": "Punjab",
+        "query": "Punjab Province",
+        "coordinates": [
+            30.85,
+            72.31667
+        ]
+    },
+    {
+        "geonameId": 909137,
+        "name": "Lusaka",
+        "toponymName": "Lusaka",
+        "countryName": "Zambia",
+        "longitude": "28.28713",
+        "latitude": "-15.40669",
+        "fcl": "P",
+        "fclName": "city, village,...",
+        "hierarchy": [
+            "Earth",
+            "Africa",
+            "Zambia",
+            "Lusaka Province",
+            "Lusaka"
+        ],
+        "adminName1": "Lusaka Province",
+        "query": "Lusaka",
+        "coordinates": [
+            -15.40669,
+            28.28713
+        ]
+    },
+    {
+        "geonameId": 909129,
+        "name": "Lusaka Province",
+        "toponymName": "Lusaka Province",
+        "countryName": "Zambia",
+        "longitude": "29",
+        "latitude": "-15.41667",
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": [
+            "Earth",
+            "Africa",
+            "Zambia",
+            "Lusaka Province"
+        ],
+        "adminName1": "Lusaka Province",
+        "query": "Lusaka",
+        "coordinates": [
+            -15.41667,
+            29.0
+        ]
+    },
+    {
+        "geonameId": 6301545,
+        "name": "Lusaka City Airport",
+        "toponymName": "Lusaka City Airport",
+        "countryName": "Zambia",
+        "longitude": "28.33068",
+        "latitude": "-15.41382",
+        "fcl": "S",
+        "fclName": "spot, building, farm",
+        "hierarchy": [
+            "Earth",
+            "Africa",
+            "Zambia",
+            "Lusaka Province",
+            "Lusaka City Airport"
+        ],
+        "adminName1": "Lusaka Province",
+        "query": "Lusaka",
+        "coordinates": [
+            -15.41382,
+            28.33068
+        ]
+    },
+    {
+        "geonameId": 1264542,
+        "name": "Madhya Pradesh",
+        "toponymName": "Madhya Pradesh",
+        "countryName": "India",
+        "longitude": "78.5",
+        "latitude": "23.5",
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": [
+            "Earth",
+            "Asia",
+            "India",
+            "Madhya Pradesh"
+        ],
+        "adminName1": "Madhya Pradesh",
+        "query": "Pradesh",
+        "coordinates": [
+            23.5,
+            78.5
+        ]
+    },
+    {
+        "geonameId": 12095450,
+        "name": "Gandaki Pradesh",
+        "toponymName": "Gandaki Pradesh",
+        "countryName": "Nepal",
+        "longitude": "84.03806",
+        "latitude": "28.38431",
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": [
+            "Earth",
+            "Asia",
+            "Nepal",
+            "Gandaki Pradesh"
+        ],
+        "adminName1": "Gandaki Pradesh",
+        "query": "Pradesh",
+        "coordinates": [
+            28.38431,
+            84.03806
+        ]
+    },
+    {
+        "geonameId": 12095453,
+        "name": "Sudurpashchim Pradesh",
+        "toponymName": "Sudurpashchim Pradesh",
+        "countryName": "Nepal",
+        "longitude": "80.92063",
+        "latitude": "29.32055",
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": [
+            "Earth",
+            "Asia",
+            "Nepal",
+            "Sudurpashchim Pradesh"
+        ],
+        "adminName1": "Sudurpashchim Pradesh",
+        "query": "Pradesh",
+        "coordinates": [
+            29.32055,
+            80.92063
+        ]
+    },
+    {
+        "geonameId": 1270101,
+        "name": "Himachal Pradesh",
+        "toponymName": "State of Him\u0101chal Pradesh",
+        "countryName": "India",
+        "longitude": "77.25",
+        "latitude": "31.91667",
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": [
+            "Earth",
+            "Asia",
+            "India",
+            "Himachal Pradesh"
+        ],
+        "adminName1": "Himachal Pradesh",
+        "query": "Pradesh",
+        "coordinates": [
+            31.91667,
+            77.25
+        ]
+    },
+    {
+        "geonameId": 1253626,
+        "name": "Uttar Pradesh",
+        "toponymName": "Uttar Pradesh",
+        "countryName": "India",
+        "longitude": "80.75",
+        "latitude": "27.25",
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": [
+            "Earth",
+            "Asia",
+            "India",
+            "Uttar Pradesh"
+        ],
+        "adminName1": "Uttar Pradesh",
+        "query": "Pradesh",
+        "coordinates": [
+            27.25,
+            80.75
+        ]
+    },
+    {
+        "geonameId": 3175395,
+        "name": "Italy",
+        "toponymName": "Italian Republic",
+        "countryName": "Italy",
+        "longitude": "12.83333",
+        "latitude": "42.83333",
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": [
+            "Earth",
+            "Europe",
+            "Italy"
+        ],
+        "adminName1": "",
+        "query": "Italy",
+        "coordinates": [
+            42.83333,
+            12.83333
+        ]
+    },
+    {
+        "geonameId": 12089032,
+        "name": "Central Italy",
+        "toponymName": "Centro",
+        "countryName": "Italy",
+        "longitude": "12.24145",
+        "latitude": "42.83829",
+        "fcl": "L",
+        "fclName": "parks,area, ...",
+        "hierarchy": [
+            "Earth",
+            "Europe",
+            "Italy",
+            "Central Italy"
+        ],
+        "adminName1": "",
+        "query": "Italy",
+        "coordinates": [
+            42.83829,
+            12.24145
+        ]
+    },
+    {
+        "geonameId": 12089033,
+        "name": "South Italy",
+        "toponymName": "Sud",
+        "countryName": "Italy",
+        "longitude": "15.93279",
+        "latitude": "40.40542",
+        "fcl": "L",
+        "fclName": "parks,area, ...",
+        "hierarchy": [
+            "Earth",
+            "Europe",
+            "Italy",
+            "South Italy"
+        ],
+        "adminName1": "",
+        "query": "Italy",
+        "coordinates": [
+            40.40542,
+            15.93279
+        ]
+    },
+    {
+        "geonameId": 12089030,
+        "name": "Northwest Italy",
+        "toponymName": "Nord-Ovest",
+        "countryName": "Italy",
+        "longitude": "8.96233",
+        "latitude": "45.20543",
+        "fcl": "L",
+        "fclName": "parks,area, ...",
+        "hierarchy": [
+            "Earth",
+            "Europe",
+            "Italy",
+            "Northwest Italy"
+        ],
+        "adminName1": "",
+        "query": "Italy",
+        "coordinates": [
+            45.20543,
+            8.96233
+        ]
+    },
+    {
+        "geonameId": 232110,
+        "name": "Kasangati",
+        "toponymName": "Kasangati",
+        "countryName": "Uganda",
+        "longitude": "32.60246",
+        "latitude": "0.43803",
+        "fcl": "P",
+        "fclName": "city, village,...",
+        "hierarchy": [
+            "Earth",
+            "Africa",
+            "Uganda",
+            "Central Region",
+            "Wakiso District",
+            "Kyadondo",
+            "Nangabo",
+            "Kasangati"
+        ],
+        "adminName1": "Central Region",
+        "query": "Kasangati",
+        "coordinates": [
+            0.43803,
+            32.60246
+        ]
+    },
+    {
+        "geonameId": 10858704,
+        "name": "Kasangati Health Centre IV",
+        "toponymName": "Kasangati Health Centre IV",
+        "countryName": "Uganda",
+        "longitude": "32.60093",
+        "latitude": "0.43498",
+        "fcl": "S",
+        "fclName": "spot, building, farm",
+        "hierarchy": [
+            "Earth",
+            "Africa",
+            "Uganda",
+            "Central Region",
+            "Wakiso District",
+            "Kyadondo",
+            "Nangabo",
+            "Kasangati Health Centre IV"
+        ],
+        "adminName1": "Central Region",
+        "query": "Kasangati",
+        "coordinates": [
+            0.43498,
+            32.60093
+        ]
+    },
+    {
+        "geonameId": 2302401,
+        "name": "Burma Camp",
+        "toponymName": "Burma Camp",
+        "countryName": "Ghana",
+        "longitude": "-0.15496",
+        "latitude": "5.59642",
+        "fcl": "P",
+        "fclName": "city, village,...",
+        "hierarchy": [
+            "Earth",
+            "Africa",
+            "Ghana",
+            "Greater Accra Region",
+            "Accra",
+            "Accra",
+            "Burma Camp"
+        ],
+        "adminName1": "Greater Accra",
+        "query": "Burma Camp",
+        "coordinates": [
+            5.59642,
+            -0.15496
+        ]
+    },
+    {
+        "geonameId": 3202326,
+        "name": "Croatia",
+        "toponymName": "Republic of Croatia",
+        "countryName": "Croatia",
+        "longitude": "15.5",
+        "latitude": "45.16667",
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": [
+            "Earth",
+            "Europe",
+            "Croatia"
+        ],
+        "adminName1": "",
+        "query": "Croatia",
+        "coordinates": [
+            45.16667,
+            15.5
+        ]
+    },
+    {
+        "geonameId": 3985606,
+        "name": "San Luis Potos\u00ed City",
+        "toponymName": "San Luis Potos\u00ed",
+        "countryName": "Mexico",
+        "longitude": "-100.97916",
+        "latitude": "22.14982",
+        "fcl": "P",
+        "fclName": "city, village,...",
+        "hierarchy": [
+            "Earth",
+            "North America",
+            "Mexico",
+            "San Luis Potos\u00ed",
+            "San Luis Potos\u00ed",
+            "San Luis Potos\u00ed City"
+        ],
+        "adminName1": "San Luis Potos\u00ed",
+        "query": "San Luis",
+        "coordinates": [
+            22.14982,
+            -100.97916
+        ]
+    },
+    {
+        "geonameId": 3837056,
+        "name": "San Luis",
+        "toponymName": "San Luis",
+        "countryName": "Argentina",
+        "longitude": "-66.33563",
+        "latitude": "-33.29501",
+        "fcl": "P",
+        "fclName": "city, village,...",
+        "hierarchy": [
+            "Earth",
+            "South America",
+            "Argentina",
+            "San Luis",
+            "Juan Mart\u00edn de Pueyrred\u00f3n",
+            "San Luis"
+        ],
+        "adminName1": "San Luis",
+        "query": "San Luis",
+        "coordinates": [
+            -33.29501,
+            -66.33563
+        ]
+    },
+    {
+        "geonameId": 3837029,
+        "name": "San Luis",
+        "toponymName": "San Luis Province",
+        "countryName": "Argentina",
+        "longitude": "-66",
+        "latitude": "-34",
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": [
+            "Earth",
+            "South America",
+            "Argentina",
+            "San Luis"
+        ],
+        "adminName1": "San Luis",
+        "query": "San Luis",
+        "coordinates": [
+            -34.0,
+            -66.0
+        ]
+    },
+    {
+        "geonameId": 3985605,
+        "name": "San Luis Potos\u00ed",
+        "toponymName": "Estado de San Luis Potos\u00ed",
+        "countryName": "Mexico",
+        "longitude": "-100.5",
+        "latitude": "22.5",
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": [
+            "Earth",
+            "North America",
+            "Mexico",
+            "San Luis Potos\u00ed"
+        ],
+        "adminName1": "San Luis Potos\u00ed",
+        "query": "San Luis",
+        "coordinates": [
+            22.5,
+            -100.5
+        ]
+    },
+    {
+        "geonameId": 2750405,
+        "name": "The Netherlands",
+        "toponymName": "Kingdom of the Netherlands",
+        "countryName": "The Netherlands",
+        "longitude": "5.75",
+        "latitude": "52.25",
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": [
+            "Earth",
+            "Europe",
+            "The Netherlands"
+        ],
+        "adminName1": "",
+        "query": "The Netherlands",
+        "coordinates": [
+            52.25,
+            5.75
+        ]
+    },
+    {
+        "geonameId": 1810676,
+        "name": "Gansu",
+        "toponymName": "Gansu Sheng",
+        "countryName": "China",
+        "longitude": "102.75",
+        "latitude": "37.75",
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": [
+            "Earth",
+            "Asia",
+            "China",
+            "Gansu"
+        ],
+        "adminName1": "Gansu",
+        "query": "Gansu province",
+        "coordinates": [
+            37.75,
+            102.75
+        ]
+    },
+    {
+        "geonameId": 12683906,
+        "name": "Jajpur Sadar",
+        "toponymName": "Jajpur Sadar",
+        "countryName": "India",
+        "longitude": "86.2682",
+        "latitude": "20.82016",
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": [
+            "Earth",
+            "Asia",
+            "India",
+            "Odisha",
+            "Jajapur",
+            "Jajpur Sadar"
+        ],
+        "adminName1": "Odisha",
+        "query": "Jajpur",
+        "coordinates": [
+            20.82016,
+            86.2682
+        ]
+    },
+    {
+        "geonameId": 53654,
+        "name": "Mogadishu",
+        "toponymName": "Mogadishu",
+        "countryName": "Somalia",
+        "longitude": "45.34375",
+        "latitude": "2.03711",
+        "fcl": "P",
+        "fclName": "city, village,...",
+        "hierarchy": [
+            "Earth",
+            "Africa",
+            "Somalia",
+            "Banaadir",
+            "Mogadishu"
+        ],
+        "adminName1": "Banaadir",
+        "query": "Mogadishu",
+        "coordinates": [
+            2.03711,
+            45.34375
+        ]
+    },
+    {
+        "geonameId": 11072377,
+        "name": "Mogadishu Stadium",
+        "toponymName": "Mogadishu Stadium",
+        "countryName": "Somalia",
+        "longitude": "45.33546",
+        "latitude": "2.06754",
+        "fcl": "S",
+        "fclName": "spot, building, farm",
+        "hierarchy": [
+            "Earth",
+            "Africa",
+            "Somalia",
+            "Banaadir",
+            "Mogadishu Stadium"
+        ],
+        "adminName1": "Banaadir",
+        "query": "Mogadishu",
+        "coordinates": [
+            2.06754,
+            45.33546
+        ]
+    },
+    {
+        "geonameId": 5202009,
+        "name": "Moscow",
+        "toponymName": "Moscow",
+        "countryName": "United States",
+        "longitude": "-75.51852",
+        "latitude": "41.33675",
+        "fcl": "P",
+        "fclName": "city, village,...",
+        "hierarchy": [
+            "Earth",
+            "North America",
+            "United States",
+            "Pennsylvania",
+            "Lackawanna",
+            "Borough of Moscow",
+            "Moscow"
+        ],
+        "adminName1": "Pennsylvania",
+        "query": "Moscow Region",
+        "coordinates": [
+            41.33675,
+            -75.51852
+        ]
+    },
+    {
+        "geonameId": 5038301,
+        "name": "Moscow",
+        "toponymName": "Moscow",
+        "countryName": "United States",
+        "longitude": "-93.09825",
+        "latitude": "43.70718",
+        "fcl": "P",
+        "fclName": "city, village,...",
+        "hierarchy": [
+            "Earth",
+            "North America",
+            "United States",
+            "Minnesota",
+            "Freeborn",
+            "Moscow Township",
+            "Moscow"
+        ],
+        "adminName1": "Minnesota",
+        "query": "Moscow Region",
+        "coordinates": [
+            43.70718,
+            -93.09825
+        ]
+    },
+    {
+        "geonameId": 5263551,
+        "name": "Moscow",
+        "toponymName": "Moscow",
+        "countryName": "United States",
+        "longitude": "-89.85512",
+        "latitude": "42.83333",
+        "fcl": "P",
+        "fclName": "city, village,...",
+        "hierarchy": [
+            "Earth",
+            "North America",
+            "United States",
+            "Wisconsin",
+            "Iowa",
+            "Town of Moscow",
+            "Moscow"
+        ],
+        "adminName1": "Wisconsin",
+        "query": "Moscow Region",
+        "coordinates": [
+            42.83333,
+            -89.85512
+        ]
+    },
+    {
+        "geonameId": 8394304,
+        "name": "Marina Bay Street Circuit",
+        "toponymName": "Marina Bay Street Circuit",
+        "countryName": "Singapore",
+        "longitude": "103.86395",
+        "latitude": "1.29156",
+        "fcl": "S",
+        "fclName": "spot, building, farm",
+        "hierarchy": [
+            "Earth",
+            "Asia",
+            "Singapore",
+            "Marina Bay Street Circuit"
+        ],
+        "adminName1": "",
+        "query": "Marina Bay",
+        "coordinates": [
+            1.29156,
+            103.86395
+        ]
+    },
+    {
+        "geonameId": 8354422,
+        "name": "Marina Bay",
+        "toponymName": "Marina Bay",
+        "countryName": "Singapore",
+        "longitude": "103.85972",
+        "latitude": "1.28105",
+        "fcl": "P",
+        "fclName": "city, village,...",
+        "hierarchy": [
+            "Earth",
+            "Asia",
+            "Singapore",
+            "Singapore",
+            "Marina Bay"
+        ],
+        "adminName1": "",
+        "query": "Marina Bay",
+        "coordinates": [
+            1.28105,
+            103.85972
+        ]
+    },
+    {
+        "geonameId": 233114,
+        "name": "Jinja",
+        "toponymName": "Jinja",
+        "countryName": "Uganda",
+        "longitude": "33.20317",
+        "latitude": "0.43902",
+        "fcl": "P",
+        "fclName": "city, village,...",
+        "hierarchy": [
+            "Earth",
+            "Africa",
+            "Uganda",
+            "Eastern Region",
+            "Jinja District",
+            "Jinja Municipality",
+            "Central Division",
+            "Jinja"
+        ],
+        "adminName1": "Eastern Region",
+        "query": "Jinja",
+        "coordinates": [
+            0.43902,
+            33.20317
+        ]
+    },
+    {
+        "geonameId": 443335,
+        "name": "Jinja District",
+        "toponymName": "Jinja District",
+        "countryName": "Uganda",
+        "longitude": "33.315",
+        "latitude": "0.511",
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": [
+            "Earth",
+            "Africa",
+            "Uganda",
+            "Eastern Region",
+            "Jinja District"
+        ],
+        "adminName1": "Eastern Region",
+        "query": "Jinja",
+        "coordinates": [
+            0.511,
+            33.315
+        ]
+    },
+    {
+        "geonameId": 6297377,
+        "name": "Jinja Airport",
+        "toponymName": "Jinja Airport",
+        "countryName": "Uganda",
+        "longitude": "33.18333",
+        "latitude": "0.45",
+        "fcl": "S",
+        "fclName": "spot, building, farm",
+        "hierarchy": [
+            "Earth",
+            "Africa",
+            "Uganda",
+            "Eastern Region",
+            "Jinja District",
+            "Jinja Municipality",
+            "Mpumudde/Kimaka Division",
+            "Jinja Airport"
+        ],
+        "adminName1": "Eastern Region",
+        "query": "Jinja",
+        "coordinates": [
+            0.45,
+            33.18333
+        ]
+    },
+    {
+        "geonameId": 1270260,
+        "name": "Haryana",
+        "toponymName": "State of Hary\u0101na",
+        "countryName": "India",
+        "longitude": "76.33333",
+        "latitude": "29.25",
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": [
+            "Earth",
+            "Asia",
+            "India",
+            "Haryana"
+        ],
+        "adminName1": "Haryana",
+        "query": "Haryana",
+        "coordinates": [
+            29.25,
+            76.33333
+        ]
+    },
+    {
+        "geonameId": 3435910,
+        "name": "Buenos Aires",
+        "toponymName": "Buenos Aires",
+        "countryName": "Argentina",
+        "longitude": "-58.37723",
+        "latitude": "-34.61315",
+        "fcl": "P",
+        "fclName": "city, village,...",
+        "hierarchy": [
+            "Earth",
+            "South America",
+            "Argentina",
+            "Buenos Aires F.D.",
+            "Buenos Aires"
+        ],
+        "adminName1": "Buenos Aires F.D.",
+        "query": "Buenos Aires",
+        "coordinates": [
+            -34.61315,
+            -58.37723
+        ]
+    },
+    {
+        "geonameId": 12035668,
+        "name": "Greater Buenos Aires",
+        "toponymName": "Greater Buenos Aires",
+        "countryName": "Argentina",
+        "longitude": "-58.47748",
+        "latitude": "-34.61787",
+        "fcl": "L",
+        "fclName": "parks,area, ...",
+        "hierarchy": [
+            "Earth",
+            "South America",
+            "Argentina",
+            "Greater Buenos Aires"
+        ],
+        "adminName1": "",
+        "query": "Buenos Aires",
+        "coordinates": [
+            -34.61787,
+            -58.47748
+        ]
+    },
+    {
+        "geonameId": 3435907,
+        "name": "Buenos Aires",
+        "toponymName": "Buenos Aires",
+        "countryName": "Argentina",
+        "longitude": "-60",
+        "latitude": "-36",
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": [
+            "Earth",
+            "South America",
+            "Argentina",
+            "Buenos Aires"
+        ],
+        "adminName1": "Buenos Aires",
+        "query": "Buenos Aires",
+        "coordinates": [
+            -36.0,
+            -60.0
+        ]
+    },
+    {
+        "query": "Lithuania",
+        "geonameId": 597427,
+        "name": "Lithuania",
+        "toponymName": "Republic of Lithuania",
+        "countryName": "Lithuania",
+        "coordinates": [
+            55.41667,
+            24.0
+        ],
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": "Earth;Europe;Lithuania",
+        "adminName1": ""
+    },
+    {
+        "query": "Nangarhar",
+        "geonameId": 1132366,
+        "name": "Nangarhar",
+        "toponymName": "Nangarh\u0101r",
+        "countryName": "Afghanistan",
+        "coordinates": [
+            34.33333,
+            70.41667
+        ],
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": "Earth;Asia;Afghanistan;Nangarhar",
+        "adminName1": "Nangarhar"
+    },
+    {
+        "query": "Luang Prabang",
+        "geonameId": 1655559,
+        "name": "Luang Prabang",
+        "toponymName": "Luang Prabang",
+        "countryName": "Laos",
+        "coordinates": [
+            19.8933,
+            102.1525
+        ],
+        "fcl": "P",
+        "fclName": "city, village,...",
+        "hierarchy": "Earth;Asia;Laos;Luang Prabang Province;Luang Prabang",
+        "adminName1": "Luang Prabang Province"
+    },
+    {
+        "query": "Luang Prabang",
+        "geonameId": 1655558,
+        "name": "Luang Prabang Province",
+        "toponymName": "Luang Prabang Province",
+        "countryName": "Laos",
+        "coordinates": [
+            20.25,
+            102.66667
+        ],
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": "Earth;Asia;Laos;Luang Prabang Province",
+        "adminName1": "Luang Prabang Province"
+    },
+    {
+        "query": "Laos",
+        "geonameId": 1655842,
+        "name": "Laos",
+        "toponymName": "Lao People\u2019s Democratic Republic",
+        "countryName": "Laos",
+        "coordinates": [
+            18.0,
+            105.0
+        ],
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": "Earth;Asia;Laos",
+        "adminName1": ""
+    },
+    {
+        "query": "Delhi Metro",
+        "geonameId": 5342522,
+        "name": "Delhi",
+        "toponymName": "Delhi",
+        "countryName": "United States",
+        "coordinates": [
+            37.43216,
+            -120.77854
+        ],
+        "fcl": "P",
+        "fclName": "city, village,...",
+        "hierarchy": "Earth;North America;United States;California;Merced;Delhi",
+        "adminName1": "California"
+    },
+    {
+        "query": "Howrah",
+        "geonameId": 1270396,
+        "name": "Howrah",
+        "toponymName": "Howrah",
+        "countryName": "India",
+        "coordinates": [
+            22.57688,
+            88.31857
+        ],
+        "fcl": "P",
+        "fclName": "city, village,...",
+        "hierarchy": "Earth;Asia;India;West Bengal;Howrah;Bally Jagachha;Howrah",
+        "adminName1": "West Bengal"
+    },
+    {
+        "query": "Howrah",
+        "geonameId": 1270397,
+        "name": "Howrah",
+        "toponymName": "H\u0101ora",
+        "countryName": "India",
+        "coordinates": [
+            22.6,
+            88.25
+        ],
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": "Earth;Asia;India;West Bengal;Howrah",
+        "adminName1": "West Bengal"
+    },
+    {
+        "query": "Crimea",
+        "geonameId": 703883,
+        "name": "Crimea",
+        "toponymName": "Autonomous Republic of Crimea",
+        "countryName": "Ukraine",
+        "coordinates": [
+            45.0,
+            34.0
+        ],
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": "Earth;Europe;Ukraine;Crimea",
+        "adminName1": "Crimea"
+    },
+    {
+        "query": "Crimea",
+        "geonameId": 703884,
+        "name": "Crimea",
+        "toponymName": "Crimea",
+        "countryName": "Ukraine",
+        "coordinates": [
+            45.0,
+            34.0
+        ],
+        "fcl": "L",
+        "fclName": "parks,area, ...",
+        "hierarchy": "Earth;Europe;Ukraine;Crimea;Crimea",
+        "adminName1": "Crimea"
+    },
+    {
+        "query": "the United States",
+        "geonameId": 6252001,
+        "name": "United States",
+        "toponymName": "United States",
+        "countryName": "United States",
+        "coordinates": [
+            39.76,
+            -98.5
+        ],
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": "Earth;North America;United States",
+        "adminName1": ""
+    },
+    {
+        "query": "Bhayandar",
+        "geonameId": 1276014,
+        "name": "Bhayandar",
+        "toponymName": "Bhayandar",
+        "countryName": "India",
+        "coordinates": [
+            19.30157,
+            72.85107
+        ],
+        "fcl": "P",
+        "fclName": "city, village,...",
+        "hierarchy": "Earth;Asia;India;Maharashtra;Thane District;Thane;Bhayandar",
+        "adminName1": "Maharashtra"
+    },
+    {
+        "query": "Maui",
+        "geonameId": 5850871,
+        "name": "Maui County",
+        "toponymName": "Maui County",
+        "countryName": "United States",
+        "coordinates": [
+            20.86774,
+            -156.61706
+        ],
+        "fcl": "A",
+        "fclName": "country, state, region,...",
+        "hierarchy": "Earth;North America;United States;Hawaii;Maui County",
+        "adminName1": "Hawaii"
+    },
+    {
+        "query": "Jerusalem",
+        "geonameId": 281184,
+        "name": "Jerusalem",
+        "toponymName": "Jerusalem",
+        "countryName": "Israel",
+        "coordinates": [
+            31.76904,
+            35.21633
+        ],
+        "fcl": "P",
+        "fclName": "city, village,...",
+        "hierarchy": "Earth;Asia;Israel;Jerusalem;Jerusalem",
+        "adminName1": "Jerusalem"
+    },
+    {
+        "query": "Jerusalem",
+        "geonameId": 7303419,
+        "name": "East Jerusalem",
+        "toponymName": "East Jerusalem",
+        "countryName": "Palestine",
+        "coordinates": [
+            31.78336,
+            35.23388
+        ],
+        "fcl": "P",
+        "fclName": "city, village,...",
+        "hierarchy": "Earth;Asia;Palestine;West Bank;Quds Governorate;B\u0101b as S\u0101hirah;East Jerusalem",
+        "adminName1": "West Bank"
+    },
+    {
+        "query": "Tel Aviv",
+        "geonameId": 293397,
+        "name": "Tel Aviv",
+        "toponymName": "Tel Aviv",
+        "countryName": "Israel",
+        "coordinates": [
+            32.08088,
+            34.78057
+        ],
+        "fcl": "P",
+        "fclName": "city, village,...",
+        "hierarchy": "Earth;Asia;Israel;Tel Aviv;Tel Aviv",
+        "adminName1": "Tel Aviv"
+    },
+    {
+        "query": "Middle East",
+        "geonameId": 6269133,
+        "name": "Middle East",
+        "toponymName": "Middle East",
+        "countryName": null,
+        "coordinates": [
+            33.13906,
+            35.85869
+        ],
+        "fcl": "L",
+        "fclName": "parks,area, ...",
+        "hierarchy": "Earth;Middle East",
+        "adminName1": ""
     }
 ]

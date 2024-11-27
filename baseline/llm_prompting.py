@@ -30,7 +30,7 @@ def gpt4_vision_prompting(prompt,client,image_path, map_manipulated_original={},
     '''
     Prompting GPT4 multimodal.
     '''
-    deployment_name='gpt-4-vision-preview' 
+    deployment_name='gpt-4-turbo' 
     content = [{"type": "text", "text": prompt}]
     # Only when modality is either one of vision or multimodal
     if modality in ['vision', 'multimodal']:
