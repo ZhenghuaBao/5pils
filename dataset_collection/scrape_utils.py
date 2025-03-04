@@ -261,29 +261,29 @@ def get_filtered_retrieval_results(path):
     ris_results = load_json(path)
     retrieval_results = []
     # Iterate over the URLs and apply the filters
-    for i in range(len(ris_results)):
-        for u in range(len(ris_results[i]['urls'])):
-            #Loop through all evidence urls, and see if they meet the requirements
-            evidence_url = ris_results[i]['urls'][u]
+    for entry in ris_results:  # 遍历数据项（entry应该是字典）
+        if not isinstance(entry, dict):
+            print(f"❌ 发现非字典类型数据：{entry}，跳过")
+            continue  # 跳过错误数据
+
+        if 'url' not in entry or not entry['url']:
+            continue  # 跳过无效数据
+
+        url_list = [entry['url']] if isinstance(entry['url'], str) else entry['url']
+
+        for evidence_url in url_list:
+            image_urls = entry.get('image urls', [])  # 确保 image urls 是列表
+
+
             ris_data = {
-                'image path': ris_results[i]['image path'], 
+                'image path': entry['image path'],
                 'raw url': evidence_url,
-                'image urls': ris_results[i]['image urls'][evidence_url], 
-                'is_fc': is_fc_organization('/'.join(evidence_url.split('/')[:3])),
+                'image urls': image_urls,
                 'is_https': evidence_url.startswith('https')
             }
-            # Apply additional conditions to each dictionary
-            ris_data['is_banned'] = is_banned(ris_data['raw url'])
-            ris_data['is_obfuscated'] = is_obfuscated_or_encoded(ris_data['raw url'])  
-            ris_data['is_html'] = is_likely_html(ris_data['raw url'])
-            # Selection condition
-            ris_data['selection'] = ris_data['is_html'] and ris_data['is_https'] and not ris_data['is_obfuscated'] and not ris_data['is_banned']
-            # Append the dictionary to the list if it meets all the criteria
             retrieval_results.append(ris_data)
 
-    # Filter the data based on the selection criteria
-    selected_retrieval_results = [d for d in retrieval_results if d['selection']]
-    return selected_retrieval_results
+    return retrieval_results
 
 
 def compute_url_distance(url1,url2,threshold):
@@ -325,34 +325,54 @@ def find_image_caption(soup, image_url,threshold=25):
     return "Caption not found"
 
 
-def extract_info_trafilatura(page_url,image_url):
+def extract_info_trafilatura(page_url, image_urls, retries=3, delay=5):
     try:
-        headers= {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'} 
-        response = requests.get(page_url, headers=headers, timeout=(10,10))
-        if response.status_code == 200:
-            #Extract content with Trafilatura
-            result = bare_extraction(response.text,
-                                   include_images=True,
-                                   include_tables=False)
-            #Remove unnecessary contente
-            keys_to_keep = ['title','author','url',
-                            'hostname','description','sitename',
-                            'date','text','language','image','pagetype']
-            result = {key: result[key] for key in keys_to_keep if key in result}
-            result['image url'] = image_url
-            # Finding the image caption
-            image_caption = []
-            soup = bs(response.text, 'html.parser')
-            for img in image_url:
-                image_caption.append(find_image_caption(soup, img))
-            image_caption.append(find_image_caption(soup,result['image']))
-            result['image caption'] = image_caption
-            result['url'] = page_url
-            return result
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'} 
+        
+        # 尝试请求页面，重试次数超过时退出
+        for attempt in range(retries):
+            try:
+                response = requests.get(page_url, headers=headers, timeout=(10, 10))
+                if response.status_code == 200:
+                    break
+            except requests.RequestException as e:
+                print(f"Attempt {attempt + 1}/{retries} failed for {page_url}: {e}")
+                if attempt < retries - 1:
+                    time.sleep(delay)  # 等待后重试
+                else:
+                    print(f"All attempts failed for {page_url}")
+                    return None
         else:
-            return "Failed to retrieve webpage"
+            return None  # 如果请求失败，直接返回 None
+
+        # 提取内容
+        result = bare_extraction(response.text, include_images=True, include_tables=False)
+        if not result:  # 提取失败
+            print(f"Failed to extract content from {page_url}")
+            return None
+        
+        # 过滤提取结果
+        keys_to_keep = ['title', 'author', 'url', 'hostname', 'description', 'sitename', 'date', 'text', 'language', 'image', 'pagetype']
+        result = {key: result[key] for key in keys_to_keep if key in result}
+        result['image url'] = image_urls
+
+        # 获取图片的描述（caption）
+        image_caption = []
+        soup = bs(response.text, 'html.parser')
+        for img in image_urls:
+            image_caption.append(find_image_caption(soup, img))  # 假设 find_image_caption 正常工作
+
+        if 'image' in result:
+            image_caption.append(find_image_caption(soup, result['image']))
+        
+        result['image caption'] = image_caption
+        result['url'] = page_url
+
+        return result
+
     except Exception as e:
-        return f"Error occurred: {e}"
+        print(f"Error occurred while processing {page_url}: {e}")
+        return None
 
 
 def time_difference(date1, date2):
@@ -378,7 +398,10 @@ def merge_data(evidence, evidence_metadata,dataset):
     '''
     evidence_df = pd.DataFrame(evidence)
     evidence_metadata_df = pd.DataFrame(evidence_metadata)
+    # print("evidence_metadata_df columns:", evidence_metadata_df.columns)
     dataset_df = pd.DataFrame(dataset)
+    # print("evidence_df columns:", evidence_df.columns)
+    # print("evidence_metadata_df columns:", evidence_metadata_df.columns)
     merged_data = pd.merge(evidence_df, evidence_metadata_df.drop_duplicates(subset='raw url')[['image path','raw url']].rename(columns={'raw url':'url'}), on='url',how='inner')
     merged_data = pd.merge(merged_data.rename(columns={'url':'evidence url'}), 
                            dataset_df[['org','image path','publication date']].rename(columns={'publication date': 'date_filter'}), 
