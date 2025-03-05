@@ -7,6 +7,8 @@ from baseline.answer_generation import *
 from baseline.generation_utils import * 
 from baseline.llm_prompting import *
 
+from dotenv import load_dotenv
+
 
 # Export your OpenAI API in your environment for later use
 
@@ -38,8 +40,12 @@ if __name__=='__main__':
                         help='The waiting time between two answer generation.')
 
     args = parser.parse_args()
+
+    load_dotenv()
+
     if args.model=='gpt4':
-        client = OpenAI()
+        api_key=os.getenv("OPENAI_KEY")
+        client = OpenAI(api_key=api_key)
     else:
         client = None
 
