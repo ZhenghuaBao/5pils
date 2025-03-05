@@ -261,18 +261,18 @@ def get_filtered_retrieval_results(path):
     ris_results = load_json(path)
     retrieval_results = []
     # Iterate over the URLs and apply the filters
-    for entry in ris_results:  # 遍历数据项（entry应该是字典）
+    for entry in ris_results:  
         if not isinstance(entry, dict):
-            print(f"❌ 发现非字典类型数据：{entry}，跳过")
-            continue  # 跳过错误数据
+            print(f"Discovering non-dictionary type data：{entry}, skip")
+            continue 
 
         if 'url' not in entry or not entry['url']:
-            continue  # 跳过无效数据
+            continue  
 
         url_list = [entry['url']] if isinstance(entry['url'], str) else entry['url']
 
         for evidence_url in url_list:
-            image_urls = entry.get('image urls', [])  # 确保 image urls 是列表
+            image_urls = entry.get('image urls', [])  
 
 
             ris_data = {
@@ -329,7 +329,7 @@ def extract_info_trafilatura(page_url, image_urls, retries=3, delay=5):
     try:
         headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'} 
         
-        # 尝试请求页面，重试次数超过时退出
+        # Attempts to request a page and exits when the retry count is exceeded  尝试请求页面，重试次数超过时退出
         for attempt in range(retries):
             try:
                 response = requests.get(page_url, headers=headers, timeout=(10, 10))
@@ -338,29 +338,29 @@ def extract_info_trafilatura(page_url, image_urls, retries=3, delay=5):
             except requests.RequestException as e:
                 print(f"Attempt {attempt + 1}/{retries} failed for {page_url}: {e}")
                 if attempt < retries - 1:
-                    time.sleep(delay)  # 等待后重试
+                    time.sleep(delay) 
                 else:
                     print(f"All attempts failed for {page_url}")
                     return None
         else:
-            return None  # 如果请求失败，直接返回 None
+            return None  # If the request fails, return None  如果请求失败，直接返回 None
 
-        # 提取内容
+        # Extracted content 提取内容
         result = bare_extraction(response.text, include_images=True, include_tables=False)
-        if not result:  # 提取失败
-            print(f"Failed to extract content from {page_url}")
+        if not result:  
+            # print(f"Failed to extract content from {page_url}")
             return None
         
-        # 过滤提取结果
+        # Filtered extraction results  过滤提取结果
         keys_to_keep = ['title', 'author', 'url', 'hostname', 'description', 'sitename', 'date', 'text', 'language', 'image', 'pagetype']
         result = {key: result[key] for key in keys_to_keep if key in result}
         result['image url'] = image_urls
 
-        # 获取图片的描述（caption）
+        # Get the description of the image (caption) 获取图片的描述（caption）
         image_caption = []
         soup = bs(response.text, 'html.parser')
         for img in image_urls:
-            image_caption.append(find_image_caption(soup, img))  # 假设 find_image_caption 正常工作
+            image_caption.append(find_image_caption(soup, img))  
 
         if 'image' in result:
             image_caption.append(find_image_caption(soup, result['image']))
@@ -371,7 +371,7 @@ def extract_info_trafilatura(page_url, image_urls, retries=3, delay=5):
         return result
 
     except Exception as e:
-        print(f"Error occurred while processing {page_url}: {e}")
+        # print(f"Error occurred while processing {page_url}: {e}")
         return None
 
 

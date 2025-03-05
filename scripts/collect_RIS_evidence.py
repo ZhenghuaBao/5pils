@@ -16,7 +16,6 @@ import urllib.parse
 key_file_path = Path("dataset/key.json")
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]= key_file_path.as_posix()
 
-print(dir(pytineye.TinEyeAPIRequest))
 
 def detect_web(path,how_many_queries=30):
     """
@@ -70,42 +69,42 @@ def detect_web(path,how_many_queries=30):
 
 
 def detect_tineye(path, max_results=30):
-    # 请替换为你自己的API URL和API密钥
+    # API URL, APIkey
     TINEYE_API_URL = "https://api.tineye.com/rest/"
-    TINEYE_API_KEY = "8_S=+7YmvS7wyk*sNaTQkx_0osIn,flM=MNw6W6B"  # 替换为你自己的API密钥
+    TINEYE_API_KEY = ""  
 
-    # 初始化 TinEye API 请求对象
+    #Initialize the TinEye API request object 初始化 TinEye API 请求对象
     api = pytineye.TinEyeAPIRequest(api_url=TINEYE_API_URL, api_key=TINEYE_API_KEY)
     
     page_urls = []
     matching_image_urls = {}
 
-    # 检查是否是图片文件
+    # Check if it is an image file 检查是否是图片文件
     if path.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp', '.gif')):        
         with open(path, "rb") as img_file:
             image_data = img_file.read()
 
-        # 使用 search_data 进行反向搜索
+        #Reverse search with search_data 使用 search_data 进行反向搜索
         try:
             response = api.search_data(image_data, limit=max_results)
 
-            # 直接通过 response.matches 访问匹配项
-            if len(response.matches) > 0:  # matches 是一个列表
-                for result in response.matches:  # 访问每个匹配项
-                    page_url = result.image_url  # 获取图片 URL
+            # Access matches directly via response.matches. 直接通过 response.matches 访问匹配项
+            if len(response.matches) > 0:  # matches is a list.  matches 是一个列表
+                for result in response.matches:  # Access to each match 访问每个匹配项
+                    page_url = result.image_url  # Get Image URL  获取图片 URL
                     if page_url not in page_urls:
                         page_urls.append(page_url)
                     
                     if page_url not in matching_image_urls:
                         matching_image_urls[page_url] = []
-                    matching_image_urls[page_url].append(result.image_url)  # 获取匹配图片的 URL
+                    matching_image_urls[page_url].append(result.image_url)  # Get the URL of the matching image. 获取匹配图片的 URL
 
             else:
                 print(f"No matches found for {path}.")
         except Exception as e:
-            print(f"发生错误: {e}")
+            print(f"error occurs: {e}")
     else:
-        print(f"跳过非图片文件: {path}")
+        print(f"Skip non-image files: {path}")
     
     return page_urls, matching_image_urls
 
@@ -146,103 +145,99 @@ if __name__=='__main__':
     if not 'retrieval_results'  in os.listdir('dataset/'):
         os.mkdir('dataset/retrieval_results/')
     
-    # 加载 MBFC 数据库
+    # Loading the MBFC database  加载 MBFC 数据库
     with open("dataset/MBFC Bias Database 12-12-24.json", "r") as file:
         mbfc_data = json.load(file)
 
-    # 创建 {domain: credibility} 快速查找表
+    # Create {domain: credibility} quick lookup table  创建 {domain: credibility} 快速查找表
     credibility_lookup = {entry["Domain"]: entry["Credibility"] for entry in mbfc_data}
 
     def get_credibility(url):
-        """从 URL 获取主域名，并查询 MBFC 可信度"""
+        """Obtain the main domain name from the URL and query the trustworthiness of MBFC.  从 URL 获取主域名，并查询 MBFC 可信度"""
         parsed_url = urlparse(url)
-        domain = parsed_url.netloc.replace("www.", "")  # 移除 'www.'
-        return credibility_lookup.get(domain, "Unknown")  # 若找不到，则返回 Unknown
+        domain = parsed_url.netloc.replace("www.", "")  # remove 'www.'
+        return credibility_lookup.get(domain, "Unknown")  # if cant find, return Unknown
 
 
-    all_filtered_results = []  # 用于存储 Google + TinEye 的 RIS 结果
+    all_filtered_results = []  # For storing RIS results from Google + TinEye  用于存储 Google + TinEye 的 RIS 结果
     # Google RIS
     if args.collect_google:
         raw_ris_results = []
-        filtered_results = []  # 存储筛选后的结果
+        filtered_results = []  # Storing filtered results 存储筛选后的结果
 
         for path in tqdm(os.listdir(args.image_path)):
             urls, image_urls, vis_entities = detect_web(args.image_path + path, args.max_results)
 
             for url in urls:
-                credibility = get_credibility(url)  # 计算单个 URL 可信度
+                credibility = get_credibility(url)  # Calculate the reliability of a single URL 计算单个 URL 可信度
 
-                 # 如果 URL 可信度是 "Unknown"，跳过
+                 # If the URL credibility is “Unknown, low”, skip it. 如果 URL 可信度是 "Unknown, Low"，跳过
                 if credibility in ["Unknown", "Low"]:
                     continue  
 
-                # 处理当前 URL 相关的 image_urls
-                url_image_urls = {}  # 存储 URL 对应的图片链接
+                url_image_urls = {}  # Stores the image link corresponding to the URL 存储 URL 对应的图片链接
 
                 if url in image_urls:
-                    url_image_urls = image_urls[url]  # 直接获取该 URL 关联的所有图片链接
+                    url_image_urls = image_urls[url]  # Directly get all the image links associated with the URL  直接获取该 URL 关联的所有图片链接
             
 
-                # 存储结果，每个 URL 作为一个单独的条目
+                # Stores the results, with each URL as a separate entry  存储结果，每个 URL 作为一个单独的条目
                 filtered_results.append({
                     'image path': args.image_path + path,
                     'url': url,
                     'credibility': credibility,
-                    'image urls': url_image_urls,  # 单独存储每个 URL 相关的图片和可信度
-                    'visual entities': vis_entities  # 视觉实体数据仍然和图片相关联
+                    'image urls': url_image_urls,  # Separate storage of images and credibility associated with each URL 单独存储每个 URL 相关的图片和可信度
+                    'visual entities': vis_entities  # Visual entity data is still associated with pictures  视觉实体数据仍然和图片相关联
                 })
 
                 time.sleep(args.sleep)
-        all_filtered_results.extend(filtered_results)  # ✅ 合并 TinEye 结果
+        all_filtered_results.extend(filtered_results)  # Results pending merger with TinEye 结果等待与TinEye合并
     
     # Tineye RIS
     if args.collect_tineye:
         raw_ris_results = []
-        filtered_results = []  # 存储筛选后的结果
+        filtered_results = []  
 
         for path in tqdm(os.listdir(args.image_path)):
-            urls, image_urls = detect_tineye(args.image_path + path, args.max_results)
+            urls, image_urls = detect_tineye(args.image_path + path, 10)
 
             for url in urls:
-                credibility = get_credibility(url)  # 计算单个 URL 可信度
+                credibility = get_credibility(url)  
 
-                 # 如果 URL 可信度是 "Unknown"，跳过
-                if credibility in ["Unknown", "Low"]:
-                    continue  
+                # if credibility in ["Unknown", "Low"]:
+                #     continue  
 
-                # 处理当前 URL 相关的 image_urls
-                url_image_urls = {}  # 存储 URL 对应的图片链接
+                url_image_urls = {} 
 
                 if url in image_urls:
-                    url_image_urls = image_urls[url]  # 直接获取该 URL 关联的所有图片链接
+                    url_image_urls = image_urls[url] 
             
-
-                # 存储结果，每个 URL 作为一个单独的条目
                 filtered_results.append({
                     'image path': args.image_path + path,
                     'url': url,
                     'credibility': credibility,
-                    'image urls': url_image_urls,  # 单独存储每个 URL 相关的图片和可信度
+                    'image urls': url_image_urls,  
                 })
 
                 time.sleep(args.sleep)
-        all_filtered_results.extend(filtered_results)  # ✅ 合并 TinEye 结果
-        # 保存筛选后的结果
+        all_filtered_results.extend(filtered_results)  #  Merging TinEye and google results.  合并TinEye与google的结果
+
+        #  Save filtered results  保存筛选后的结果
     with open(args.raw_ris_urls_path, 'w') as file:
         json.dump(all_filtered_results, file, indent=4)
-        # 进一步过滤 URL，移除不适合抓取的内容
+        # Further filtering of URLs to remove unsuitable content for crawling  进一步过滤 URL，移除不适合抓取的内容
     selected_data = get_filtered_retrieval_results(args.raw_ris_urls_path)
-        # print("🔹 selected_data 预览:", selected_data[:5])  # 只打印前5个数据，避免太多输出
-    print(f" selected_data的数量: {len(selected_data)}")
+    # print("🔹 selected_data :", selected_data[:5])  
+    # print(f" Number of selected_data: {len(selected_data)}")
       
         
-    # else:
-    #     # Load evidence that has already been collected
-    #     selected_data = [
-    #         d for d in load_json(args.evidence_urls) 
-    #         if d['image path'].split('/')[-1] in os.listdir('dataset/processed_img/')
-    #     ]
-    
+        # else:
+        #         # Load evidence that has already been collected
+        #     selected_data = [
+        #         d for d in load_json(args.evidence_urls) 
+        #         if d['image path'].split('/')[-1] in os.listdir('dataset/processed_img/')
+        #     ]
+            
     urls = [d['raw url'] for d in selected_data]
     images = [d['image urls'] for d in selected_data]
 
@@ -259,13 +254,12 @@ if __name__=='__main__':
 
     #Save all results in a Pandas Dataframe
     evidence_trafilatura = load_json(args.trafilatura_path)
-    # print("🔹 `trafilatura_data.json` 即将写入的数据预览:")
-    # print(evidence_trafilatura)  # 这里可以检查数据是不是空的
+   
     dataset = load_json('dataset/train.json') + load_json('dataset/val.json')  + load_json('dataset/test.json')
     
     evidence = merge_data(evidence_trafilatura, selected_data, dataset).fillna('').to_dict(orient='records')
-    print(f"🔍 Trafilatura 解析成功的数量: {len(evidence_trafilatura)}")
-    # print(evidence_trafilatura[:3])
+    # print(f"Number of successful Trafilatura resolutions: {len(evidence_trafilatura)}")
+
     # Save the list of dictionaries as a JSON file
     with open(args.json_path, 'w') as file:
         json.dump(evidence, file, indent=4)
