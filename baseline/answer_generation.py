@@ -63,17 +63,24 @@ def run_model(image_paths,
     assembler = prompt_assembler_dict[model]
 
 
-    questions = {
-    'source':'Who is the source/author of this image? Answer only with one or more persons or entities in a few words.',
-    'date':'When was this image taken? Answer only with one or more dates in a few words.',
-    'location':'Where was this image taken? Answer only with one or more locations in a few words.',
-    'motivation':'Why was this image taken? Answer in a few words.'
-            }
     
-    question = questions[task]
 
     #Main loop
     for i in tqdm(range(len(image_paths))):
+        # 提取 image path 相关的描述
+        filename = os.path.basename(image_paths[i])  # 取文件名
+        filename_without_ext = os.path.splitext(filename)[0]  # 去掉扩展名
+        # meaningful_part = filename_without_ext.split("-is-shared-as")[0]  # 只取前半部分
+        meaningful_part = filename_without_ext.split("-in-")[0]  # 以“-in-”为分界更准确
+        questions = {
+        'source':'Who is the source/author of this image? Answer only with one or more persons or entities in a few words. Please refer to the input, if there is more than one source then select the most relevant part to “{meaningful_part}” and generate an answer, even if you can not be sure, please select the most likely source.',
+        'date':'When was this photo taken? Please refer to the date value in the input, if there is more than one date then select the most relevant part to “{meaningful_part}” and generate an answer, please only answer the date, even if you can not be sure, please select the most likely date.',
+        'location':'Where was this image taken? Answer only with one or more locations in a few words.Please refer to the input, if there is more than one location then select the most relevant part to “{meaningful_part}” and generate an answer, even if you can not be sure, please select the most likely location.Please only answer the location.',
+        'motivation':'Why was this image taken? Answer in a few words.Please refer to the input, if there is more than one motivation then select the most relevant part to “{meaningful_part}” and generate an answer, even if you can not be sure, please select the most likely motivation.'
+                }
+        
+        question = questions[task]
+
         if modality in ['evidence','multimodal']:
             if len(evidence_idx[i])!=0:
                 #Take the subset of evidence matching the image, then take the top K based on CLIP ranking
