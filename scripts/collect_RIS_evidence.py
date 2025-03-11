@@ -15,7 +15,7 @@ import pytineye
 import urllib.parse
 key_file_path = Path("dataset/key.json")
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]= key_file_path.as_posix()
-
+import subprocess
 
 def detect_web(path,how_many_queries=30):
     """
@@ -68,46 +68,81 @@ def detect_web(path,how_many_queries=30):
 
 
 
+# def detect_tineye_(path, max_results=30):
+#     # API URL, APIkey
+#     TINEYE_API_URL = "https://api.tineye.com/rest/search/"
+#     TINEYE_API_KEY = "8_S=+7YmvS7wyk*sNaTQkx_0osIn,flM=MNw6W6B"  
+
+#     #Initialize the TinEye API request object 初始化 TinEye API 请求对象
+#     api = pytineye.TinEyeAPIRequest(api_url=TINEYE_API_URL, api_key=TINEYE_API_KEY)
+    
+#     page_urls = []
+#     matching_image_urls = {}
+
+#     # Check if it is an image file 检查是否是图片文件
+#     if path.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp', '.gif')):        
+#         with open(path, "rb") as img_file:
+#             image_data = img_file.read()
+
+#         #Reverse search with search_data 使用 search_data 进行反向搜索
+#         try:
+#             response = api.search_data(image_data, limit=max_results)
+
+#             # Access matches directly via response.matches. 直接通过 response.matches 访问匹配项
+#             if len(response.matches) > 0:  # matches is a list.  matches 是一个列表
+#                 for result in response.matches:  # Access to each match 访问每个匹配项
+#                     for backlink in result.backlinks:
+#                         page_url = backlink # Get Image URL  获取图片 URL
+#                         if page_url not in page_urls:
+#                             page_urls.append(page_url)
+                        
+#                         if page_url not in matching_image_urls:
+#                             matching_image_urls[page_url] = []
+#                         matching_image_urls[page_url].append(result.image_url)  # Get the URL of the matching image. 获取匹配图片的 URL
+
+#             else:
+#                 print(f"No matches found for {path}.")
+#         except Exception as e:
+#             print(f"error occurs: {e}")
+#     else:
+#         print(f"Skip non-image files: {path}")
+    
+#     return page_urls, matching_image_urls
+
 def detect_tineye(path, max_results=30):
-    # API URL, APIkey
-    TINEYE_API_URL = "https://api.tineye.com/rest/"
-    TINEYE_API_KEY = ""  
+    TINEYE_API_URL = "https://api.tineye.com/rest/search/"
+    TINEYE_API_KEY = "8_S=+7YmvS7wyk*sNaTQkx_0osIn,flM=MNw6W6B"  
 
-    #Initialize the TinEye API request object 初始化 TinEye API 请求对象
-    api = pytineye.TinEyeAPIRequest(api_url=TINEYE_API_URL, api_key=TINEYE_API_KEY)
+    full_path = os.path.abspath(path)
+
+    command = f'''curl https://api.tineye.com/rest/search/ \
+             -H "x-api-key: {TINEYE_API_KEY}" \
+             -F "image_upload=@{full_path}" \
+             -F "limit=10"'''
     
+    curl_result = subprocess.check_output(command, shell=True)
+
+    results_json = json.loads(curl_result)
+    
+    # print(results_json)
     page_urls = []
-    matching_image_urls = {}
-
-    # Check if it is an image file 检查是否是图片文件
-    if path.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp', '.gif')):        
-        with open(path, "rb") as img_file:
-            image_data = img_file.read()
-
-        #Reverse search with search_data 使用 search_data 进行反向搜索
-        try:
-            response = api.search_data(image_data, limit=max_results)
-
-            # Access matches directly via response.matches. 直接通过 response.matches 访问匹配项
-            if len(response.matches) > 0:  # matches is a list.  matches 是一个列表
-                for result in response.matches:  # Access to each match 访问每个匹配项
-                    page_url = result.image_url  # Get Image URL  获取图片 URL
-                    if page_url not in page_urls:
-                        page_urls.append(page_url)
-                    
-                    if page_url not in matching_image_urls:
-                        matching_image_urls[page_url] = []
-                    matching_image_urls[page_url].append(result.image_url)  # Get the URL of the matching image. 获取匹配图片的 URL
-
-            else:
-                print(f"No matches found for {path}.")
-        except Exception as e:
-            print(f"error occurs: {e}")
+    matching_image_urls = []
+    if 'results' in results_json and 'matches' in results_json['results'] and len(results_json['results']['matches']) > 0:
+    # 遍历 matches 中的每个项
+        for match in results_json['results']['matches']:
+            # 提取每个 match 的 backlinks
+            page_url = match['backlinks'][0]['backlink']
+            if page_url not in page_urls:
+                page_urls.append(match['backlinks'][0]['backlink'])
+                matching_image_urls.append(match['backlinks'][0]['url'])
+             # Get the URL of the matching image. 获取匹配图片的 URL
     else:
-        print(f"Skip non-image files: {path}")
-    
-    return page_urls, matching_image_urls
+        print(f"No matches found for {path}.")
 
+    return page_urls, matching_image_urls
+            # backlinks_list.append(match['backlinks'])
+
+    
 
 if __name__=='__main__':
     parser = argparse.ArgumentParser(description='Collect evidence using Google Reverse Image Search.')
@@ -127,7 +162,7 @@ if __name__=='__main__':
                         help='The json file to store the scraped trafilatura  content as a json file.')
     parser.add_argument('--json_path', type=str, default='dataset/retrieval_results/evidence.json',
                         help='The json file to store the text evidence as a json file.')
-    parser.add_argument('--max_results', type=int, default=30,
+    parser.add_argument('--max_results', type=int, default=40,
                         help='The maximum number of web-pages to collect with the web detection API.') 
     parser.add_argument('--sleep', type=int, default=3,
                         help='The waiting time between two web detection API calls') 
@@ -172,7 +207,7 @@ if __name__=='__main__':
                 credibility = get_credibility(url)  # Calculate the reliability of a single URL 计算单个 URL 可信度
 
                  # If the URL credibility is “Unknown, low”, skip it. 如果 URL 可信度是 "Unknown, Low"，跳过
-                if credibility in ["Unknown", "Low"]:
+                if credibility in ["Low"]:
                     continue  
 
                 url_image_urls = {}  # Stores the image link corresponding to the URL 存储 URL 对应的图片链接
@@ -209,8 +244,8 @@ if __name__=='__main__':
 
                 url_image_urls = {} 
 
-                if url in image_urls:
-                    url_image_urls = image_urls[url] 
+                # if url in image_urls:
+                url_image_urls = image_urls 
             
                 filtered_results.append({
                     'image path': args.image_path + path,
