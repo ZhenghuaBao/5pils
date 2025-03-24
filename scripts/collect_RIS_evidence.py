@@ -67,51 +67,9 @@ def detect_web(path,how_many_queries=30):
     return page_urls, matching_image_urls, visual_entities
 
 
-
-# def detect_tineye_(path, max_results=30):
-#     # API URL, APIkey
-#     TINEYE_API_URL = "https://api.tineye.com/rest/search/"
-#     TINEYE_API_KEY = "8_S=+7YmvS7wyk*sNaTQkx_0osIn,flM=MNw6W6B"  
-
-#     #Initialize the TinEye API request object 初始化 TinEye API 请求对象
-#     api = pytineye.TinEyeAPIRequest(api_url=TINEYE_API_URL, api_key=TINEYE_API_KEY)
-    
-#     page_urls = []
-#     matching_image_urls = {}
-
-#     # Check if it is an image file 检查是否是图片文件
-#     if path.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp', '.gif')):        
-#         with open(path, "rb") as img_file:
-#             image_data = img_file.read()
-
-#         #Reverse search with search_data 使用 search_data 进行反向搜索
-#         try:
-#             response = api.search_data(image_data, limit=max_results)
-
-#             # Access matches directly via response.matches. 直接通过 response.matches 访问匹配项
-#             if len(response.matches) > 0:  # matches is a list.  matches 是一个列表
-#                 for result in response.matches:  # Access to each match 访问每个匹配项
-#                     for backlink in result.backlinks:
-#                         page_url = backlink # Get Image URL  获取图片 URL
-#                         if page_url not in page_urls:
-#                             page_urls.append(page_url)
-                        
-#                         if page_url not in matching_image_urls:
-#                             matching_image_urls[page_url] = []
-#                         matching_image_urls[page_url].append(result.image_url)  # Get the URL of the matching image. 获取匹配图片的 URL
-
-#             else:
-#                 print(f"No matches found for {path}.")
-#         except Exception as e:
-#             print(f"error occurs: {e}")
-#     else:
-#         print(f"Skip non-image files: {path}")
-    
-#     return page_urls, matching_image_urls
-
 def detect_tineye(path, max_results=30):
     TINEYE_API_URL = "https://api.tineye.com/rest/search/"
-    TINEYE_API_KEY = "8_S=+7YmvS7wyk*sNaTQkx_0osIn,flM=MNw6W6B"  
+    TINEYE_API_KEY = ""  
 
     full_path = os.path.abspath(path)
 
