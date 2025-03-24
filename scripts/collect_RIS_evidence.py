@@ -123,8 +123,7 @@ def detect_tineye(path, max_results=30):
     curl_result = subprocess.check_output(command, shell=True)
 
     results_json = json.loads(curl_result)
-    
-    # print(results_json)
+
     page_urls = []
     matching_image_urls = []
     if 'results' in results_json and 'matches' in results_json['results'] and len(results_json['results']['matches']) > 0:
@@ -168,7 +167,7 @@ if __name__=='__main__':
                         help='The waiting time between two web detection API calls') 
     parser.add_argument('--collect_tineye', type=int, default=1, 
                         help='Whether to collect evidence URLs with TinEye API. If 0, assumes a file with URLs already exists.')
-    parser.add_argument('--tineye_api_key', type=str, default="8_S=+7YmvS7wyk*sNaTQkx_0osIn,flM=MNw6W6B",  # Provide your TinEye API key
+    parser.add_argument('--tineye_api_key', type=str, default="",  # Provide your TinEye API key
                         help='Your key to access the TinEye API. Required if collect_tineye is set to 1.')
 
     
